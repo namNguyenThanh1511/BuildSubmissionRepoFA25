@@ -1,0 +1,720 @@
+{
+	"info": {
+		"_postman_id": "f4ee9df3-4e7a-46bd-80d6-16bfed71590a",
+		"name": "PRN232_PE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38688315"
+	},
+	"item": [
+		{
+			"name": "Login Successful",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"const response = pm.response.json();\r",
+							"pm.collectionVariables.set(\"token\", response.token);\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/Auth/login",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login Successful",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/Auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"Auth",
+								"login"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:14:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1IiwibmFtZSI6ImFkbWluaXN0cmF0b3IiLCJlbWFpbCI6ImFkbWluaXN0cmF0b3JAbGVvcGFyZC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiYXVkIjoiUEVfUFJOMjMzIiwiaXNzIjoiUEVfUFJOMjMzIiwiZXhwIjoxNzUyOTg0ODU5LCJpYXQiOjE3NTI5ODEyNTksIm5iZiI6MTc1Mjk4MTI1OX0.6Lrbd2YFIWdIMU4JtFbsDUeDrSSZhL1OzjgL7RkNbg4\",\n    \"role\": 5\n}"
+				}
+			]
+		},
+		{
+			"name": "Login Failed",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"nouser@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/Auth/login",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"Auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Login Failed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"nouser@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/Auth/login",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"Auth",
+								"login"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:14:55 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorCode\": \"HB40401\",\n    \"message\": \"Resource not found\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Get list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate response status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/LeopardProfile",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get list",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/LeopardProfile",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:15:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": [\n        {\n            \"leopardProfileId\": 1,\n            \"leopardTypeId\": 1,\n            \"leopardName\": \"Panthera tigris tigris\",\n            \"weight\": 35,\n            \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 2,\n            \"leopardTypeId\": 1,\n            \"leopardName\": \"Nepalaliis\",\n            \"weight\": 22,\n            \"characteristics\": \"Females of this subspecies weigh around 29 kg, and males weigh around 56 kg\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 3,\n            \"leopardTypeId\": 1,\n            \"leopardName\": \"Bhutanient\",\n            \"weight\": 39,\n            \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 4,\n            \"leopardTypeId\": 2,\n            \"leopardName\": \"Bengal\",\n            \"weight\": 33,\n            \"characteristics\": \"The leopards are either completely black due to a recessive phenotype or have the usual spotted coat\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 5,\n            \"leopardTypeId\": 2,\n            \"leopardName\": \"Ekaterina\",\n            \"weight\": 30,\n            \"characteristics\": \"The Javan leopard is critically endangered, and only about 250 individuals survive in protected habitats in their range\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 6,\n            \"leopardTypeId\": 2,\n            \"leopardName\": \"Sierra\",\n            \"weight\": 31,\n            \"characteristics\": \"Depletion of the prey base, poaching, habitat loss and also conflicts with humans have resulted in a rapid downfall in the numbers of the Javan leopard\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 7,\n            \"leopardTypeId\": 3,\n            \"leopardName\": \"Panthera\",\n            \"weight\": 17,\n            \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 8,\n            \"leopardTypeId\": 3,\n            \"leopardName\": \"Sumatra\",\n            \"weight\": 20,\n            \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        },\n        {\n            \"leopardProfileId\": 9,\n            \"leopardTypeId\": 3,\n            \"leopardName\": \"Baliance\",\n            \"weight\": 20,\n            \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n            \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n            \"modifiedDate\": \"2025-06-20T00:00:00\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "Get by ID",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate response status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/LeopardProfile/1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile",
+						"1"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Get by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/LeopardProfile/1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:16:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"leopardProfileId\": 1,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Panthera tigris tigris\",\n        \"weight\": 35,\n        \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Create LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate response status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera Tigris\",\r\n  \"weight\": 14,\r\n  \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T03:18:02.021Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/LeopardProfile",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Create LeopardProfile",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera Tigris\",\r\n  \"weight\": 14,\r\n  \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T03:18:02.021Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/LeopardProfile",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:20:04 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"leopardProfileId\": 12,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Panthera Tigris\",\n        \"weight\": 14,\n        \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-07-20T03:20:05.29\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Update LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate response status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Bengal Ekaterina\",\r\n  \"weight\": 14,\r\n  \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T03:18:02.021Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/LeopardProfile/12",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile",
+						"12"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Update LeopardProfile",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Bengal Ekaterina\",\r\n  \"weight\": 14,\r\n  \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T03:18:02.021Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/api/LeopardProfile/1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:21:21 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"result\": {\n        \"leopardProfileId\": 12,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Bengal Ekaterina\",\n        \"weight\": 14,\n        \"characteristics\": \"The leopards are completely brown or have the usual spotted coat\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-07-20T03:18:02.02\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Validate response status code\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/LeopardProfile/12",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile",
+						"12"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Delete LeopardProfile",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{baseURL}}/api/LeopardProfile/1",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "text/plain; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:21:58 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "Deleted item id 12"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseURL",
+			"value": "https://localhost:7108",
+			"type": "default"
+		},
+		{
+			"key": "token",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
