@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Enable Git long paths
-        run: git config --global core.longpaths true
+        run: git config --global core.longpaths true || true
 
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -38,7 +38,7 @@ jobs:
             exit 0
           fi
 
-          # Extract unique folder names (format: submissions/StudentId-Timestamp-Index/)
+          # Extract unique folder names
           FOLDERS=$(echo "$CHANGED_FILES" | sed 's|submissions/\([^/]*\)/.*|\1|' | sort -u)
 
           # Convert to JSON array
@@ -51,9 +51,8 @@ jobs:
         if: steps.changed-folders.outputs.folders != '[]'
         run: |
           FOLDERS='${{ steps.changed-folders.outputs.folders }}'
-
-          # Parse JSON array and build each folder
           echo "$FOLDERS" | jq -r '.[]' | while read -r folder; do
+            
             SUBMISSION_PATH="submissions/$folder"
             
             if [ ! -d "$SUBMISSION_PATH" ]; then
@@ -64,7 +63,7 @@ jobs:
             echo "🔨 Building submission: $folder"
             echo "📁 Path: $SUBMISSION_PATH"
             
-            # Find .sln or .csproj files
+            # Find .sln or .csproj
             SOLUTION_FILE=$(find "$SUBMISSION_PATH" -name "*.sln" -type f | head -n 1)
             PROJECT_FILE=$(find "$SUBMISSION_PATH" -name "*.csproj" -type f | head -n 1)
             
@@ -76,12 +75,18 @@ jobs:
               echo "✅ Found project file: $PROJECT_FILE"
             else
               echo "❌ No .sln or .csproj found in $SUBMISSION_PATH"
-              echo "::error::No build target found for $folder"
+              echo "::error::No build target for $folder"
               continue
             fi
             
-            # Build the project
-            echo "🚀 Starting build for $folder..."
+            echo "📦 Restoring NuGet packages..."
+            if ! dotnet restore "$BUILD_TARGET"; then
+              echo "❌ Restore failed for $folder"
+              echo "::error::Restore failed for $folder"
+              exit 1
+            fi
+
+            echo "🚀 Building $folder..."
             if dotnet build "$BUILD_TARGET" -c Release --no-restore; then
               echo "✅ Build succeeded for $folder"
               echo "::notice::Build succeeded for $folder"
@@ -90,7 +95,7 @@ jobs:
               echo "::error::Build failed for $folder"
               exit 1
             fi
-            
+
             echo "---"
           done
 
@@ -99,6 +104,6 @@ jobs:
         run: |
           echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "✅ Build process completed for all changed submissions" >> $GITHUB_STEP_SUMMARY
+          echo "Completed processing changed submissions." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "Check the logs above for detailed results." >> $GITHUB_STEP_SUMMARY
+          echo "Check logs for detailed results." >> $GITHUB_STEP_SUMMARY
