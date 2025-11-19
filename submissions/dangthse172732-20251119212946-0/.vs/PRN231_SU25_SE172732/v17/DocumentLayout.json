@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\trial_test\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|solutionrelative:trial_test\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D234734-1712-45A4-A116-FBB1203AAE46}|DAL\\DAL.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\dal\\models\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D234734-1712-45A4-A116-FBB1203AAE46}|DAL\\DAL.csproj|solutionrelative:dal\\models\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400E3664-F89D-4239-8A90-32173F3B5599}|BLL\\BLL.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400E3664-F89D-4239-8A90-32173F3B5599}|BLL\\BLL.csproj|solutionrelative:bll\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{400E3664-F89D-4239-8A90-32173F3B5599}|BLL\\BLL.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\bll\\services\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{400E3664-F89D-4239-8A90-32173F3B5599}|BLL\\BLL.csproj|solutionrelative:bll\\services\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D234734-1712-45A4-A116-FBB1203AAE46}|DAL\\DAL.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\dal\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D234734-1712-45A4-A116-FBB1203AAE46}|DAL\\DAL.csproj|solutionrelative:dal\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\trial_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|solutionrelative:trial_test\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|c:\\users\\dang\\desktop\\new folder (2)\\prn231_su25_se172732\\trial_test\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1831D324-F2D7-49D9-8B1C-9F04B5A3F5FF}|Trial_Test\\PRN231_SU25_SE172732.api.csproj|solutionrelative:trial_test\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Program.cs",
+              "RelativeDocumentMoniker": "Trial_Test\\Program.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Program.cs",
+              "RelativeToolTip": "Trial_Test\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:21:10.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Trial_Test\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Trial_Test\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:21:05.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\BLL\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\BLL\\Services\\AuthService.cs",
+              "RelativeToolTip": "BLL\\Services\\AuthService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:18:39.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "Trial_Test\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\Trial_Test\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "Trial_Test\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAQwEYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:14:18.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\DAL\\Models\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\LeopardAccount.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\DAL\\Models\\LeopardAccount.cs",
+              "RelativeToolTip": "DAL\\Models\\LeopardAccount.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:04:42.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\DAL\\Models\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "DAL\\Models\\LeopardProfile.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\DAL\\Models\\LeopardProfile.cs",
+              "RelativeToolTip": "DAL\\Models\\LeopardProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:04:28.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\BLL\\Services\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\LeopardProfileService.cs",
+              "ToolTip": "C:\\Users\\Dang\\Desktop\\New folder (2)\\PRN231_SU25_SE172732\\BLL\\Services\\LeopardProfileService.cs",
+              "RelativeToolTip": "BLL\\Services\\LeopardProfileService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:00:37.17Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:69:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:68:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:71:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:73:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
