@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.bll\\services\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|solutionrelative:prn231_su25_se170479.bll\\services\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\extensions\\configurejwtextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\extensions\\configurejwtextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\extensions\\configureswaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\extensions\\configureswaggerextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.bll\\services\\ileopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|solutionrelative:prn231_su25_se170479.bll\\services\\ileopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.bll\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|solutionrelative:prn231_su25_se170479.bll\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.bll\\services\\ileopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|solutionrelative:prn231_su25_se170479.bll\\services\\ileopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\modelextensions\\leopardvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\modelextensions\\leopardvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\models\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\models\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\models\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\models\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\extensions\\resultextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.api\\prn231_su25_se170479.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A4AD549D-38D2-4D78-912A-794AAB3DBF35}|PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj|solutionrelative:prn231_su25_se170479.api\\prn231_su25_se170479.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\dbcontext\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\dbcontext\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.dal\\prn231_su25_se170479.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F179F6DE-03E7-46D2-948A-2CDBF698EBC4}|PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj|solutionrelative:prn231_su25_se170479.dal\\prn231_su25_se170479.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|d:\\fptu\\pe_prn232_su25\\prn231_su25_se170479\\prn231_su25_se170479.bll\\prn231_su25_se170479.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0664868-43C5-4937-8235-6F6E06FEA995}|PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj|solutionrelative:prn231_su25_se170479.bll\\prn231_su25_se170479.bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 296,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeopardController.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Controllers\\LeopardController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Controllers\\LeopardController.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Controllers\\LeopardController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Controllers\\LeopardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:14:21.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigureSwaggerExtension.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ConfigureSwaggerExtension.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Extensions\\ConfigureSwaggerExtension.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ConfigureSwaggerExtension.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Extensions\\ConfigureSwaggerExtension.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:43:25.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigureJwtExtension.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ConfigureJwtExtension.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Extensions\\ConfigureJwtExtension.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ConfigureJwtExtension.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Extensions\\ConfigureJwtExtension.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:42:38.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardAccountService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\LeopardAccountService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.BLL\\Services\\LeopardAccountService.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\LeopardAccountService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.BLL\\Services\\LeopardAccountService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA9wCUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:30:55.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeopardService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\LeopardService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.BLL\\Services\\LeopardService.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\LeopardService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.BLL\\Services\\LeopardService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowGkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:49.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeopardValidator.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\ModelExtensions\\LeopardValidator.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\ModelExtensions\\LeopardValidator.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\ModelExtensions\\LeopardValidator.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\ModelExtensions\\LeopardValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:03:23.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\appsettings.json",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T03:11:47.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:13:26.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILeopardService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\ILeopardService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.BLL\\Services\\ILeopardService.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\ILeopardService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.BLL\\Services\\ILeopardService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:59.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ILeopardAccountService.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\ILeopardAccountService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.BLL\\Services\\ILeopardAccountService.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\Services\\ILeopardAccountService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.BLL\\Services\\ILeopardAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:22.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\Models\\LeopardProfile.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardProfile.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\Models\\LeopardProfile.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:56:59.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Program.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:56.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeopardType.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardType.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\Models\\LeopardType.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardType.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\Models\\LeopardType.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:57:04.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResultExtensions.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ResultExtensions.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Extensions\\ResultExtensions.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Extensions\\ResultExtensions.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Extensions\\ResultExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:43:30.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\Models\\LeopardAccount.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Models\\LeopardAccount.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\Models\\LeopardAccount.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:40.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:43:35.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PRN231_SU25_SE170479.api",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE170479.api\\PRN231_SU25_SE170479.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:42:54.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SU25LeopardDBContext.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\DBContext\\SU25LeopardDBContext.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\DBContext\\SU25LeopardDBContext.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\DBContext\\SU25LeopardDBContext.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\DBContext\\SU25LeopardDBContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:56.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAqwI8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:17.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PRN231_SU25_SE170479.DAL",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE170479.DAL\\PRN231_SU25_SE170479.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:18:36.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PRN231_SU25_SE170479.BLL",
+              "DocumentMoniker": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj",
+              "ToolTip": "D:\\FPTU\\PE_PRN232_SU25\\PRN231_SU25_SE170479\\PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE170479.BLL\\PRN231_SU25_SE170479.BLL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:18:22.557Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
