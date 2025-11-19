@@ -1,0 +1,349 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\prn231_su25_se184545.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|solutionrelative:prn231_su25_se184545.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\service\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|solutionrelative:service\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\HandbagController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\prn231_su25_se184545.api\\controllers\\leopardaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|solutionrelative:prn231_su25_se184545.api\\controllers\\leopardaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\SystemAccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\prn231_su25_se184545.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|solutionrelative:prn231_su25_se184545.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\service\\dto\\leopardprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|solutionrelative:service\\dto\\leopardprofilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\DTOs\\CreateHandbagDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\service\\validation\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|solutionrelative:service\\validation\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\service\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D90B9F58-EFD3-48E5-A41B-95C8140F7478}|Service\\Service.csproj|solutionrelative:service\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\prn231_su25_se184545.api\\middleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{906656F7-0474-4BE9-A3F3-07B8BB86C907}|PRN231_SU25_SE184545.api\\PRN231_SU25_SE184545.api.csproj|solutionrelative:prn231_su25_se184545.api\\middleware\\middleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Middleware\\GlobalExceptionHandlingMiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D077A7F5-2FB5-45A2-B253-3D64F274B75D}|BusinessObjects\\BusinessObjects.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\businessobjects\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D077A7F5-2FB5-45A2-B253-3D64F274B75D}|BusinessObjects\\BusinessObjects.csproj|solutionrelative:businessobjects\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\HandbagService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\SystemAccountService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|solutionrelative:repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|solutionrelative:repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\repository\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|solutionrelative:repository\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|c:\\users\\khuong duy\\source\\repos\\prn231_su25_se184545\\repository\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B58377B6-4937-4C34-8AA6-D71B3AA5D77F}|Repository\\Repository.csproj|solutionrelative:repository\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Repository\\SystemAccountRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\Validation\\Validation.cs",
+              "RelativeDocumentMoniker": "Service\\Validation\\Validation.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\Validation\\Validation.cs",
+              "RelativeToolTip": "Service\\Validation\\Validation.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:14:21.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE184545.api\\Program.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE184545.api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:48:11.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Program.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Program.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAEgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:58:30.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HandbagController.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\HandbagController.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\HandbagController.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\HandbagController.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\HandbagController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:53:16.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE184545.api\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE184545.api\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowCoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:53:08.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SystemAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\SystemAccountController.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\SystemAccountController.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\SystemAccountController.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Controllers\\SystemAccountController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:51:03.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeopardAccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Controllers\\LeopardAccountController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE184545.api\\Controllers\\LeopardAccountController.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Controllers\\LeopardAccountController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE184545.api\\Controllers\\LeopardAccountController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:49.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Middleware.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Middleware\\Middleware.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE184545.api\\Middleware\\Middleware.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\PRN231_SU25_SE184545.api\\Middleware\\Middleware.cs",
+              "RelativeToolTip": "PRN231_SU25_SE184545.api\\Middleware\\Middleware.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:49:08.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GlobalExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\PRN232_SU25_PE_SE184545.api\\Middleware\\GlobalExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:48:40.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\BusinessObjects\\Models\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "BusinessObjects\\Models\\LeopardProfile.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\BusinessObjects\\Models\\LeopardProfile.cs",
+              "RelativeToolTip": "BusinessObjects\\Models\\LeopardProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAkAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:33:32.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateHandbagDto.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\DTOs\\CreateHandbagDto.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\Service\\DTOs\\CreateHandbagDto.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\DTOs\\CreateHandbagDto.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\Service\\DTOs\\CreateHandbagDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:33:19.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeopardProfileRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\DTO\\LeopardProfileRequest.cs",
+              "RelativeDocumentMoniker": "Service\\DTO\\LeopardProfileRequest.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\DTO\\LeopardProfileRequest.cs",
+              "RelativeToolTip": "Service\\DTO\\LeopardProfileRequest.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAIwBIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:33:12.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HandbagService.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\HandbagService.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\Service\\HandbagService.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\HandbagService.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\Service\\HandbagService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:30:53.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "Service\\LeopardProfileService.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\LeopardProfileService.cs",
+              "RelativeToolTip": "Service\\LeopardProfileService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAEwLEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:30:39.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SystemAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\SystemAccountService.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\Service\\SystemAccountService.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Service\\SystemAccountService.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\Service\\SystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:24:54.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\GenericRepository.cs",
+              "RelativeToolTip": "Repository\\GenericRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAArwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:39.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\IGenericRepository.cs",
+              "RelativeToolTip": "Repository\\IGenericRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:06.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Repository\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "..\\PE_PRN232\\Repository\\SystemAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PE_PRN232\\Repository\\SystemAccountRepository.cs",
+              "RelativeToolTip": "..\\PE_PRN232\\Repository\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:14.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SU25LeopardDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\SU25LeopardDBContext.cs",
+              "RelativeDocumentMoniker": "Repository\\SU25LeopardDBContext.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\SU25LeopardDBContext.cs",
+              "RelativeToolTip": "Repository\\SU25LeopardDBContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:17:08.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeopardAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\LeopardAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\LeopardAccountService.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Service\\LeopardAccountService.cs",
+              "RelativeToolTip": "Service\\LeopardAccountService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:14:56.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "Repository\\LeopardAccount.cs",
+              "ToolTip": "C:\\Users\\Khuong Duy\\source\\repos\\PRN231_SU25_SE184545\\Repository\\LeopardAccount.cs",
+              "RelativeToolTip": "Repository\\LeopardAccount.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwCAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:14:47.15Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
