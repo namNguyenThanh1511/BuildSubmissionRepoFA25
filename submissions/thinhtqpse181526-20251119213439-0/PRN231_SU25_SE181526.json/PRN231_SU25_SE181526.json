@@ -1,0 +1,275 @@
+{
+	"info": {
+		"_postman_id": "2ddf9f5e-6557-47fd-a91a-5906e56abd5e",
+		"name": "PE_PRN232_SE181526",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42405390"
+	},
+	"item": [
+		{
+			"name": "Login success",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJkZXZlbG9wZXJAbGVvcGFyZC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZXZlbG9wZXIiLCJleHAiOjE3NTI5ODc2MDAsImlzcyI6IlBSTiBQRSIsImF1ZCI6IlBSTiBQRSJ9._KkwvQ2N_mqFzzTIwwVoOmt0VhT6gIVj_FDw0nKAsfc"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7057/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"auth"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:7057/api/auth' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJkZXZlbG9wZXJAbGVvcGFyZC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJkZXZlbG9wZXIiLCJleHAiOjE3NTI5ODc2MDAsImlzcyI6IlBSTiBQRSIsImF1ZCI6IlBSTiBQRSJ9._KkwvQ2N_mqFzzTIwwVoOmt0VhT6gIVj_FDw0nKAsfc' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Login failed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@leopard\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7057/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"auth"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:7057/api/auth' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"email\": \"admin@leopard\",\r\n  \"password\": \"@1\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Get list",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7057/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'https://localhost:7057/api/LeopardProfile' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY'"
+			},
+			"response": []
+		},
+		{
+			"name": "Get by ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7057/api/LeopardProfile/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'https://localhost:7057/api/LeopardProfile/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY'"
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;odata.metadata=minimal;odata.streaming=true"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera\",\r\n  \"weight\": 35,\r\n  \"characteristics\": \"The leopard\",\r\n  \"careNeeds\": \"the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T02:58:58.576Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7057/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://localhost:7057/api/LeopardProfile' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY' \\\r\n  -H 'Content-Type: application/json;odata.metadata=minimal;odata.streaming=true' \\\r\n  -d '{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera\",\r\n  \"weight\": 35,\r\n  \"characteristics\": \"The leopard\",\r\n  \"careNeeds\": \"the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T02:58:58.576Z\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json;odata.metadata=minimal;odata.streaming=true"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera Tigi Tigi\",\r\n  \"weight\": 50,\r\n  \"characteristics\": \"The leopard\",\r\n  \"careNeeds\": \"Endangered\",\r\n  \"modifiedDate\": \"2025-07-20T02:58:58.576Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7057/api/LeopardProfile/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"11"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'https://localhost:7057/api/LeopardProfile/11' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY' \\\r\n  -H 'Content-Type: application/json;odata.metadata=minimal;odata.streaming=true' \\\r\n  -d '{\r\n  \"leopardProfileId\": 0,\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Panthera Tigi Tigi\",\r\n  \"weight\": 50,\r\n  \"characteristics\": \"The leopard\",\r\n  \"careNeeds\": \"Endangered\",\r\n  \"modifiedDate\": \"2025-07-20T02:58:58.576Z\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7057/api/LeopardProfile/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7057",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"11"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'https://localhost:7057/api/LeopardProfile/11' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiYWRtaW5pc3RyYXRvciIsImV4cCI6MTc1Mjk4Nzc4OCwiaXNzIjoiUFJOIFBFIiwiYXVkIjoiUFJOIFBFIn0.pFFwFRu6QEN3yy488t-U8-AcefjG5BhQm33jJ1sBQaY'"
+			},
+			"response": []
+		}
+	]
+}
