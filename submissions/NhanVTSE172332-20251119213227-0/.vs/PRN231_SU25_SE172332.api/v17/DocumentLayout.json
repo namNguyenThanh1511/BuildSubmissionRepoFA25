@@ -1,0 +1,407 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\leopardprofilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\leopardprofilerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\services\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|solutionrelative:services\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\controllers\\leopardtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\controllers\\leopardtypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\dtos\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\dtos\\createdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\dtos\\updatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\services\\leopardtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|solutionrelative:services\\leopardtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\dbcontext\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\dbcontext\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24FFDEE6-B8AC-43BF-8721-E1A3DEF58C63}|Services\\Services.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\leopardtyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\leopardtyperepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\models\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\models\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\leopardaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\leopardaccountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFD37B2C-788D-4DCA-A393-735E1DACF0D3}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|c:\\users\\admin\\desktop\\prn231_su25_se172332.api\\prn231_su25_se172332.api\\prn231_su25_se172332.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C62C3AA5-1B15-4E71-A6D9-1D8C3CB03C17}|PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj|solutionrelative:prn231_su25_se172332.api\\prn231_su25_se172332.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeopardTypeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\LeopardTypeController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\Controllers\\LeopardTypeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\LeopardTypeController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\Controllers\\LeopardTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:54:55.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\DTOs\\CreateDTO.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\DTOs\\CreateDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\DTOs\\CreateDTO.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\DTOs\\CreateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:45:13.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:42:38.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:41:23.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\JwtHelper.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\JwtHelper.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\JwtHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:25.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAG8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:36:56.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeopardTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\LeopardTypeService.cs",
+              "RelativeDocumentMoniker": "Services\\LeopardTypeService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\LeopardTypeService.cs",
+              "RelativeToolTip": "Services\\LeopardTypeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:35:54.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "Services\\LeopardProfileService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\LeopardProfileService.cs",
+              "RelativeToolTip": "Services\\LeopardProfileService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEQAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:17.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardProfileRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardProfileRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\LeopardProfileRepo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardProfileRepo.cs",
+              "RelativeToolTip": "Repositories\\LeopardProfileRepo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowDAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:57.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:06.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Base\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Base\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Base\\GenericRepository.cs",
+              "RelativeToolTip": "Repositories\\Base\\GenericRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAkwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:45.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\DTOs\\UpdateDTO.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\DTOs\\UpdateDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\DTOs\\UpdateDTO.cs",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\DTOs\\UpdateDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:45:19.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:27:35.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Models\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\LeopardProfile.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Models\\LeopardProfile.cs",
+              "RelativeToolTip": "Repositories\\Models\\LeopardProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:26:05.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LeopardTypeRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardTypeRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\LeopardTypeRepo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardTypeRepo.cs",
+              "RelativeToolTip": "Repositories\\LeopardTypeRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:26:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LeopardType.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Models\\LeopardType.cs",
+              "RelativeDocumentMoniker": "Repositories\\Models\\LeopardType.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Models\\LeopardType.cs",
+              "RelativeToolTip": "Repositories\\Models\\LeopardType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:25:56.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LeopardAccountRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardAccountRepo.cs",
+              "RelativeDocumentMoniker": "Repositories\\LeopardAccountRepo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\LeopardAccountRepo.cs",
+              "RelativeToolTip": "Repositories\\LeopardAccountRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:21:31.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SU25LeopardDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\DBContext\\SU25LeopardDBContext.cs",
+              "RelativeDocumentMoniker": "Repositories\\DBContext\\SU25LeopardDBContext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\DBContext\\SU25LeopardDBContext.cs",
+              "RelativeToolTip": "Repositories\\DBContext\\SU25LeopardDBContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwFEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:48.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:19:38.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Repositories",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Repositories.csproj",
+              "RelativeDocumentMoniker": "Repositories\\Repositories.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\Repositories\\Repositories.csproj",
+              "RelativeToolTip": "Repositories\\Repositories.csproj",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:16:48.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PRN231_SU25_SE172332.api",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\Desktop\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE172332.api\\PRN231_SU25_SE172332.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:16:35.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 149,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
