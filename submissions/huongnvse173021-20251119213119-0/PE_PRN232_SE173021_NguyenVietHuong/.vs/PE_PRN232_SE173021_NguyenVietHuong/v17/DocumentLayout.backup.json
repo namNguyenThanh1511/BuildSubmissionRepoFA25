@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\presentation\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F239B1-520D-40FE-A085-E65FD9234454}|BusinessLogic\\BusinessLogic.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\businesslogic\\service\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F239B1-520D-40FE-A085-E65FD9234454}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\service\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\dataaccess\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\dataaccess\\dtos\\leopardprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dtos\\leopardprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\dataaccess\\context\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\context\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\dataaccess\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92345946-8426-4F64-84E2-395E2E39E92A}|Presentation\\Presentation.csproj|solutionrelative:presentation\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\dataaccess\\dtos\\accountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DE2FA3F-A194-4021-B4F1-FD9849B0A51F}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\dtos\\accountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83F239B1-520D-40FE-A085-E65FD9234454}|BusinessLogic\\BusinessLogic.csproj|d:\\fpt\\semester_8\\prn232\\pe_prn232_nguyenviethuong\\pe_prn232_se173021_nguyenviethuong\\businesslogic\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83F239B1-520D-40FE-A085-E65FD9234454}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 240,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAnwBYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:47:12.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAQwI4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:45:31.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\BusinessLogic\\Service\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Service\\LeopardProfileService.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\BusinessLogic\\Service\\LeopardProfileService.cs",
+              "RelativeToolTip": "BusinessLogic\\Service\\LeopardProfileService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:32.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Su25leopardDbContext.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Context\\Su25leopardDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Context\\Su25leopardDbContext.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Context\\Su25leopardDbContext.cs",
+              "RelativeToolTip": "DataAccess\\Context\\Su25leopardDbContext.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAApwDsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:09:55.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "DataAccess\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:39:31.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountRequestDTO.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\DTOs\\AccountRequestDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DTOs\\AccountRequestDTO.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\DTOs\\AccountRequestDTO.cs",
+              "RelativeToolTip": "DataAccess\\DTOs\\AccountRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:42:46.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\BusinessLogic\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\Service\\UserService.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\BusinessLogic\\Service\\UserService.cs",
+              "RelativeToolTip": "BusinessLogic\\Service\\UserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:31:35.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Presentation\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\Presentation\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Presentation\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:27:28.971Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 10,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Entities\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Entities\\LeopardProfile.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\Entities\\LeopardProfile.cs",
+              "RelativeToolTip": "DataAccess\\Entities\\LeopardProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:54:45.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LeopardProfileDTO.cs",
+              "DocumentMoniker": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\DTOs\\LeopardProfileDTO.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DTOs\\LeopardProfileDTO.cs",
+              "ToolTip": "D:\\FPT\\Semester_8\\PRN232\\PE_PRN232_NguyenVietHuong\\PE_PRN232_SE173021_NguyenVietHuong\\DataAccess\\DTOs\\LeopardProfileDTO.cs",
+              "RelativeToolTip": "DataAccess\\DTOs\\LeopardProfileDTO.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:49.374Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
