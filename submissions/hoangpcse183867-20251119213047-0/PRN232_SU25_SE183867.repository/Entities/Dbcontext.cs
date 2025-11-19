@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+
+namespace PRN232_SU25_SE183867.repository.Entities;
+
+public partial class Dbcontext : DbContext
+{
+    public Dbcontext()
+    {
+    }
+
+    public Dbcontext(DbContextOptions<Dbcontext> options)
+        : base(options)
+    {
+    }
+
+    public virtual DbSet<LeopardAccount> LeopardAccounts { get; set; }
+
+    public virtual DbSet<LeopardProfile> LeopardProfiles { get; set; }
+
+    public virtual DbSet<LeopardType> LeopardTypes { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<LeopardAccount>(entity =>
+        {
+            entity.HasKey(e => e.AccountId);
+
+            entity.ToTable("LeopardAccount");
+
+            entity.Property(e => e.AccountId).HasColumnName("AccountID");
+            entity.Property(e => e.Email).HasMaxLength(150);
+            entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.Password).HasMaxLength(100);
+            entity.Property(e => e.Phone).HasMaxLength(50);
+            entity.Property(e => e.UserName).HasMaxLength(50);
+        });
+
+        modelBuilder.Entity<LeopardProfile>(entity =>
+        {
+            entity.ToTable("LeopardProfile");
+
+            entity.Property(e => e.CareNeeds).HasMaxLength(1500);
+            entity.Property(e => e.Characteristics).HasMaxLength(2000);
+            entity.Property(e => e.LeopardName).HasMaxLength(150);
+            entity.Property(e => e.ModifiedDate).HasColumnType("datetime");
+
+            entity.HasOne(d => d.LeopardType).WithMany(p => p.LeopardProfiles)
+                .HasForeignKey(d => d.LeopardTypeId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_LeopardProfile_LeopardType");
+        });
+
+        modelBuilder.Entity<LeopardType>(entity =>
+        {
+            entity.ToTable("LeopardType");
+
+            entity.Property(e => e.Description).HasMaxLength(1000);
+            entity.Property(e => e.LeopardTypeName).HasMaxLength(250);
+            entity.Property(e => e.Origin).HasMaxLength(250);
+        });
+
+        OnModelCreatingPartial(modelBuilder);
+    }
+
+    partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
+}
