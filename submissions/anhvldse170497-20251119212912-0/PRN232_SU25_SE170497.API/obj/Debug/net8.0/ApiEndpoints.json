@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "PRN231.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PRN231.API.Controllers.AuthController\u002BLoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "GetAllLeopardProfiles",
+    "RelativePath": "api/LeopardProfiles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "CreateLeopardProfile",
+    "RelativePath": "api/LeopardProfiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "PRN232_SU25_SE170497.DAL.DTOs.LeopardProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "GetLeopardProfileById",
+    "RelativePath": "api/LeopardProfiles/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "UpdateLeopardProfile",
+    "RelativePath": "api/LeopardProfiles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "PRN232_SU25_SE170497.DAL.DTOs.LeopardProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "DeleteLeopardProfile",
+    "RelativePath": "api/LeopardProfiles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231.API.Controllers.LeopardProfileController",
+    "Method": "Search",
+    "RelativePath": "api/LeopardProfiles/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
