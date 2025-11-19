@@ -1,0 +1,62 @@
+name: Build Student Submission
+
+on:
+  push:
+    paths:
+      - "submissions/**"   # Chỉ chạy khi có bài nộp mới hoặc cập nhật
+
+jobs:
+  build:
+    runs-on: windows-latest   # Vì phần lớn bài nộp .NET cần Windows để build
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0   # Cần để git diff hoạt động chính xác
+
+    - name: Detect changed submission folder
+      id: detect
+      shell: bash
+      run: |
+        echo "Detecting changed folder..."
+        # Lấy file thay đổi gần nhất bên trong submissions/
+        CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep '^submissions/' | head -n 1)
+        
+        if [ -z "$CHANGED_FILE" ]; then
+          echo "No submission folder changed. Exiting."
+          exit 1
+        fi
+
+        # Tách tên thư mục submissions/<folder>/
+        DIR=$(echo $CHANGED_FILE | cut -d'/' -f2)
+        echo "Detected folder: $DIR"
+
+        # Xuất DIR ra output
+        echo "DIR=$DIR" >> $GITHUB_OUTPUT
+
+    - name: Verify folder exists
+      run: |
+        if [ ! -d "submissions/${{ steps.detect.outputs.DIR }}" ]; then
+          echo "Folder submissions/${{ steps.detect.outputs.DIR }} does not exist."
+          exit 1
+        fi
+
+    - name: Setup .NET SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: "8.0.x"   # Bạn đổi version tùy theo project sinh viên (3.1 / 5.0 / 6.0 / 7.0 ...)
+
+    - name: Build student project
+      run: |
+        echo "Building project in submissions/${{ steps.detect.outputs.DIR }}..."
+        dotnet restore submissions/${{ steps.detect.outputs.DIR }}
+        dotnet build submissions/${{ steps.detect.outputs.DIR }} --configuration Release --no-restore
+
+    - name: Build Result
+      if: ${{ success() }}
+      run: echo "✅ Build succeeded for ${{ steps.detect.outputs.DIR }}"
+
+    - name: Build Failure
+      if: ${{ failure() }}
+      run: echo "❌ Build failed for ${{ steps.detect.outputs.DIR }}"
