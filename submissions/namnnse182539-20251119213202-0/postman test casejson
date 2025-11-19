@@ -1,0 +1,45 @@
+Login test case postman https://localhost:7023/api/Auth
+
+{
+  "email": "administrator@leopard.com",
+  "password": "@1"
+}
+
+
+
+GET LEOPARD PROFILE
+https://localhost:7023/api/Leopard
+
+
+
+GET LEOPARD PROFILE BY ID
+https://localhost:7023/api/Leopard/2
+
+
+
+POST LEOPARD PROFILE 
+https://localhost:7023/api/Leopard
+{
+  "leopardTypeId": 3,
+  "leopardName": "NAM",
+  "weight": 20,
+  "characteristics": "string",
+  "careNeeds": "string",
+  "modifiedDate": "2025-07-20T03:29:42.682Z"
+}
+
+PUT LEOPARD PROFILE 
+https://localhost:7023/api/Leopard/11
+{
+  "leopardTypeId": 2,
+  "leopardName": "BEO",
+  "weight": 40,
+  "characteristics": "string",
+  "careNeeds": "string",
+  "modifiedDate": "2025-07-20T03:30:35.442Z"
+}
+
+
+DELETE LEOPARD PROFILE 
+https://localhost:7023/api/Leopard/11
+
