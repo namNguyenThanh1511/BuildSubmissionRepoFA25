@@ -1,0 +1,149 @@
+{
+	"info": {
+		"_postman_id": "2444556c-fec0-4e2a-a098-f9327139e49b",
+		"name": "BE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36161881"
+	},
+	"item": [
+		{
+			"name": "SystemAccount",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJleHAiOjE3NTI5ODQwNTksImlzcyI6IkZVIElzc3VlciIsImF1ZCI6IkZVIEF1ZGllbmNlIn0.DCT0BJUw2SYB24LvBYbRL5-OVVJmpQ7mvuWIiXab23M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7183/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get ALL Leopard",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJkZXZlbG9wZXJAbGVvcGFyZC5jb20iLCJSb2xlIjoiNyIsImV4cCI6MTc1Mjk4Mzc3OCwiaXNzIjoiRlUgSXNzdWVyIiwiYXVkIjoiRlUgQXVkaWVuY2UifQ.j3YS1U-Utjm2yFt5deVS_qcJE8V1uUY0V95AMnSOWIs",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7183/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Leopard",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJleHAiOjE3NTI5ODQwNTksImlzcyI6IkZVIElzc3VlciIsImF1ZCI6IkZVIEF1ZGllbmNlIn0.DCT0BJUw2SYB24LvBYbRL5-OVVJmpQ7mvuWIiXab23M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"Nam\",\r\n  \"weight\": 10,\r\n  \"characteristics\": \"string\",\r\n  \"careNeeds\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7183/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJleHAiOjE3NTI5ODQwNTksImlzcyI6IkZVIElzc3VlciIsImF1ZCI6IkZVIEF1ZGllbmNlIn0.DCT0BJUw2SYB24LvBYbRL5-OVVJmpQ7mvuWIiXab23M",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7183/api/LeopardProfile/10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7183",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
