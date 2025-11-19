@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Semester8\\PRN231_SU25_SE173675.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|g:\\semester8\\prn231_su25_se173675.api\\prn231_su25_se173675.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|solutionrelative:prn231_su25_se173675.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|g:\\semester8\\prn231_su25_se173675.api\\prn231_su25_se173675.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|solutionrelative:prn231_su25_se173675.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A194F782-49A0-4691-833C-5F5699A90CF7}|DAL\\DAL.csproj|g:\\semester8\\prn231_su25_se173675.api\\dal\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A194F782-49A0-4691-833C-5F5699A90CF7}|DAL\\DAL.csproj|solutionrelative:dal\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|g:\\semester8\\prn231_su25_se173675.api\\prn231_su25_se173675.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|solutionrelative:prn231_su25_se173675.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\services\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\interfaces\\ileopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ileopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\dtos\\leopardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\leopardresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|g:\\semester8\\prn231_su25_se173675.api\\bll\\dtos\\leopardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574CF09E-73F3-44C6-8B7C-29C61A65B8BC}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\leopardrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|g:\\semester8\\prn231_su25_se173675.api\\prn231_su25_se173675.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|solutionrelative:prn231_su25_se173675.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|g:\\semester8\\prn231_su25_se173675.api\\prn231_su25_se173675.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E3BCC43-4D2F-4A2D-BA72-BEE9347D46B9}|PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api.csproj|solutionrelative:prn231_su25_se173675.api\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A194F782-49A0-4691-833C-5F5699A90CF7}|DAL\\DAL.csproj|g:\\semester8\\prn231_su25_se173675.api\\dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A194F782-49A0-4691-833C-5F5699A90CF7}|DAL\\DAL.csproj|solutionrelative:dal\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Services\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\JwtTokenGenerator.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Services\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "BLL\\Services\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwCkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:19:00.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeopardService.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Services\\LeopardService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\LeopardService.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Services\\LeopardService.cs",
+              "RelativeToolTip": "BLL\\Services\\LeopardService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAUwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:41:59.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILeopardService.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Interfaces\\ILeopardService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\ILeopardService.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Interfaces\\ILeopardService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\ILeopardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:41:46.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173675.api\\appsettings.json",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE173675.api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:19:58.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\DAL\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "DAL\\Enums\\UserRole.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\DAL\\Enums\\UserRole.cs",
+              "RelativeToolTip": "DAL\\Enums\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:18:39.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173675.api\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173675.api\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:33:36.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardController.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Controllers\\LeopardController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173675.api\\Controllers\\LeopardController.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Controllers\\LeopardController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173675.api\\Controllers\\LeopardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:59:56.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeopardResponse.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\DTOs\\LeopardResponse.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LeopardResponse.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\DTOs\\LeopardResponse.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LeopardResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:43:04.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeopardRequest.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\DTOs\\LeopardRequest.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOs\\LeopardRequest.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\DTOs\\LeopardRequest.cs",
+              "RelativeToolTip": "BLL\\DTOs\\LeopardRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:44:54.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\DAL\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repositories\\GenericRepository.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\DAL\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "DAL\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:40.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173675.api\\Program.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173675.api\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:55.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthenticationService.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Interfaces\\IAuthenticationService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IAuthenticationService.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\BLL\\Interfaces\\IAuthenticationService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IAuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:52.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173675.api\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "G:\\Semester8\\PRN231_SU25_SE173675.api\\PRN231_SU25_SE173675.api\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173675.api\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAuwDoAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:27.223Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
