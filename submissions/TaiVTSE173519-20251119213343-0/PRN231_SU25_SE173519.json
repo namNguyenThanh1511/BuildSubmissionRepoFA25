@@ -1,0 +1,355 @@
+{
+	"info": {
+		"_postman_id": "57e95af0-2aa7-49d2-99ca-24ec87c9335b",
+		"name": "PE_PRN232",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35378893"
+	},
+	"item": [
+		{
+			"name": "Login succes",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"if (pm.response && pm.response.code === 200) {\r",
+							"    let jsonData;\r",
+							"    try {\r",
+							"        jsonData = pm.response.json();\r",
+							"    } catch (e) {\r",
+							"        console.log(\"Response is not valid JSON:\", e);\r",
+							"    }\r",
+							"\r",
+							"    if (jsonData) {\r",
+							"        pm.test(\"Response has token\", function () {\r",
+							"            pm.expect(jsonData.token).to.exist;\r",
+							"        });\r",
+							"\r",
+							"        pm.test(\"Response has role\", function () {\r",
+							"            pm.expect(jsonData.role).to.exist;\r",
+							"        });\r",
+							"    }\r",
+							"} else {\r",
+							"    console.log(\"Response is missing or status is not 200\");\r",
+							"}\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Failed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"wrongpassword\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status is 200 OK\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"const json = pm.response.json();\r",
+							"\r",
+							"pm.test(\"Array of handbags returned\", function () {\r",
+							"    pm.expect(json).to.be.an(\"array\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiZXhwIjoxNzUyOTg1OTIxLCJpc3MiOiJKV1QiLCJhdWQiOiJKV1QifQ.4Ivf3hU98fvghcXwagiDfJVlE8M5BJZp67S8-t53cXw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/leoprofile?page=1&size=10",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"leoprofile"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "size",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get By Id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiZXhwIjoxNzUyOTg1OTIxLCJpc3MiOiJKV1QiLCJhdWQiOiJKV1QifQ.4Ivf3hU98fvghcXwagiDfJVlE8M5BJZp67S8-t53cXw",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:7068/api/leoprofile/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"leoprofile",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update By Id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiZXhwIjoxNzUyOTg1OTIxLCJpc3MiOiJKV1QiLCJhdWQiOiJKV1QifQ.4Ivf3hU98fvghcXwagiDfJVlE8M5BJZp67S8-t53cXw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 2,\r\n  \"leopardName\": \"Lion\",\r\n  \"weight\": 20,\r\n  \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\r\n  \"modifiedDate\": \"2025-07-20T03:37:38.646Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/leoprofile/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"leoprofile",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status is 200 Created\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"// Nếu response là plain text, kiểm tra bằng text() thay vì json()\r",
+							"const responseText = pm.response.text();\r",
+							"\r",
+							"pm.test(\"Message is 'Create successfully'\", function () {\r",
+							"    pm.expect(responseText.toLowerCase()).to.include(\"create\");\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiZXhwIjoxNzUyOTg1OTIxLCJpc3MiOiJKV1QiLCJhdWQiOiJKV1QifQ.4Ivf3hU98fvghcXwagiDfJVlE8M5BJZp67S8-t53cXw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 1,\r\n  \"leopardName\": \"New Leo\",\r\n  \"weight\": 30,\r\n  \"characteristics\": \"string\",\r\n  \"careNeeds\": \"string\",\r\n  \"modifiedDate\": \"2025-07-20T03:39:38.496Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/leoprofile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"leoprofile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete By Id",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjUiLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiI1IiwiZXhwIjoxNzUyOTg1OTIxLCJpc3MiOiJKV1QiLCJhdWQiOiJKV1QifQ.4Ivf3hU98fvghcXwagiDfJVlE8M5BJZp67S8-t53cXw",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7068/api/leoprofile/11",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7068",
+					"path": [
+						"api",
+						"leoprofile",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
