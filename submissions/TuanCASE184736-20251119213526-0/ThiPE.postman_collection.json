@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "036e77f0-185a-46cc-b827-6dc6bbe809d5",
+		"name": "ThiPE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45335286",
+		"_collection_link": "https://badimuasua15-5.postman.co/workspace/BaDiMuaSua15-5's-Workspace~61dab92d-bb95-4a3e-8872-c44fea179f1b/collection/45335286-036e77f0-185a-46cc-b827-6dc6bbe809d5?action=share&source=collection_link&creator=45335286"
+	},
+	"item": [
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7056/api/auth\n",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7056",
+					"path": [
+						"api",
+						"auth\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login Failed",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@leopard.com\",\r\n  \"password\": \"@\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7056/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7056",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
