@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BEAPI", "BEAPI\BEAPI.csproj", "{AFC6A411-B151-4D41-B92B-51FDEE63B0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositories\Repositories.csproj", "{E312C5B9-B284-49E1-939A-4570B6D7F4AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{FAF03864-4C52-426C-B3A5-102FBB03AC18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFC6A411-B151-4D41-B92B-51FDEE63B0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFC6A411-B151-4D41-B92B-51FDEE63B0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFC6A411-B151-4D41-B92B-51FDEE63B0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFC6A411-B151-4D41-B92B-51FDEE63B0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E312C5B9-B284-49E1-939A-4570B6D7F4AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E312C5B9-B284-49E1-939A-4570B6D7F4AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E312C5B9-B284-49E1-939A-4570B6D7F4AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E312C5B9-B284-49E1-939A-4570B6D7F4AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF03864-4C52-426C-B3A5-102FBB03AC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF03864-4C52-426C-B3A5-102FBB03AC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF03864-4C52-426C-B3A5-102FBB03AC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF03864-4C52-426C-B3A5-102FBB03AC18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C291DE25-E66F-429D-A6F7-708FE01FC6C8}
+	EndGlobalSection
+EndGlobal
