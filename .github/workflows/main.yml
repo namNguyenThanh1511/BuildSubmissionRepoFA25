@@ -1,62 +1,104 @@
-name: Build Student Submission
+name: Build Student Submissions
 
 on:
   push:
+    branches:
+      - main
+      - master
     paths:
-      - "submissions/**"   # Chỉ chạy khi có bài nộp mới hoặc cập nhật
+      - "submissions/**"
 
 jobs:
-  build:
-    runs-on: windows-latest   # Vì phần lớn bài nộp .NET cần Windows để build
+  build-submissions:
+    runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0   # Cần để git diff hoạt động chính xác
+      - name: Enable Git long paths
+        run: git config --system core.longpaths true
 
-    - name: Detect changed submission folder
-      id: detect
-      shell: bash
-      run: |
-        echo "Detecting changed folder..."
-        # Lấy file thay đổi gần nhất bên trong submissions/
-        CHANGED_FILE=$(git diff --name-only HEAD~1 HEAD | grep '^submissions/' | head -n 1)
-        
-        if [ -z "$CHANGED_FILE" ]; then
-          echo "No submission folder changed. Exiting."
-          exit 1
-        fi
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch full history for git diff
 
-        # Tách tên thư mục submissions/<folder>/
-        DIR=$(echo $CHANGED_FILE | cut -d'/' -f2)
-        echo "Detected folder: $DIR"
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
 
-        # Xuất DIR ra output
-        echo "DIR=$DIR" >> $GITHUB_OUTPUT
+      - name: Identify changed submission folders
+        id: changed-folders
+        run: |
+          # Get list of changed files in submissions/
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '^submissions/' || true)
 
-    - name: Verify folder exists
-      run: |
-        if [ ! -d "submissions/${{ steps.detect.outputs.DIR }}" ]; then
-          echo "Folder submissions/${{ steps.detect.outputs.DIR }} does not exist."
-          exit 1
-        fi
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No changes in submissions folder"
+            echo "folders=[]" >> $GITHUB_OUTPUT
+            exit 0
+          fi
 
-    - name: Setup .NET SDK
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: "8.0.x"   # Bạn đổi version tùy theo project sinh viên (3.1 / 5.0 / 6.0 / 7.0 ...)
+          # Extract unique folder names (format: submissions/StudentId-Timestamp-Index/)
+          FOLDERS=$(echo "$CHANGED_FILES" | sed 's|submissions/\([^/]*\)/.*|\1|' | sort -u)
 
-    - name: Build student project
-      run: |
-        echo "Building project in submissions/${{ steps.detect.outputs.DIR }}..."
-        dotnet restore submissions/${{ steps.detect.outputs.DIR }}
-        dotnet build submissions/${{ steps.detect.outputs.DIR }} --configuration Release --no-restore
+          # Convert to JSON array
+          FOLDER_JSON=$(echo "$FOLDERS" | jq -R -s -c 'split("\n") | map(select(length > 0))')
 
-    - name: Build Result
-      if: ${{ success() }}
-      run: echo "✅ Build succeeded for ${{ steps.detect.outputs.DIR }}"
+          echo "folders=$FOLDER_JSON" >> $GITHUB_OUTPUT
+          echo "Found folders: $FOLDERS"
 
-    - name: Build Failure
-      if: ${{ failure() }}
-      run: echo "❌ Build failed for ${{ steps.detect.outputs.DIR }}"
+      - name: Build each changed submission
+        if: steps.changed-folders.outputs.folders != '[]'
+        run: |
+          FOLDERS='${{ steps.changed-folders.outputs.folders }}'
+
+          # Parse JSON array and build each folder
+          echo "$FOLDERS" | jq -r '.[]' | while read -r folder; do
+            SUBMISSION_PATH="submissions/$folder"
+            
+            if [ ! -d "$SUBMISSION_PATH" ]; then
+              echo "⚠️ Folder $SUBMISSION_PATH does not exist, skipping..."
+              continue
+            fi
+            
+            echo "🔨 Building submission: $folder"
+            echo "📁 Path: $SUBMISSION_PATH"
+            
+            # Find .sln or .csproj files
+            SOLUTION_FILE=$(find "$SUBMISSION_PATH" -name "*.sln" -type f | head -n 1)
+            PROJECT_FILE=$(find "$SUBMISSION_PATH" -name "*.csproj" -type f | head -n 1)
+            
+            if [ -n "$SOLUTION_FILE" ]; then
+              BUILD_TARGET="$SOLUTION_FILE"
+              echo "✅ Found solution file: $SOLUTION_FILE"
+            elif [ -n "$PROJECT_FILE" ]; then
+              BUILD_TARGET="$PROJECT_FILE"
+              echo "✅ Found project file: $PROJECT_FILE"
+            else
+              echo "❌ No .sln or .csproj found in $SUBMISSION_PATH"
+              echo "::error::No build target found for $folder"
+              continue
+            fi
+            
+            # Build the project
+            echo "🚀 Starting build for $folder..."
+            if dotnet build "$BUILD_TARGET" -c Release --no-restore; then
+              echo "✅ Build succeeded for $folder"
+              echo "::notice::Build succeeded for $folder"
+            else
+              echo "❌ Build failed for $folder"
+              echo "::error::Build failed for $folder"
+              exit 1
+            fi
+            
+            echo "---"
+          done
+
+      - name: Build summary
+        if: always()
+        run: |
+          echo "## Build Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Build process completed for all changed submissions" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the logs above for detailed results." >> $GITHUB_STEP_SUMMARY
