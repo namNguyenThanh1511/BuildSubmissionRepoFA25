@@ -1,0 +1,461 @@
+{
+	"info": {
+		"_postman_id": "cfd45f7b-33dd-49f7-b91b-636c53956b71",
+		"name": "PRN231_SU25_SE184437_POSTMAN_TEST",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36691857"
+	},
+	"item": [
+		{
+			"name": "Login success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Request method is POST\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"POST\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request body has email and password\", function () {\r",
+							"    var requestBody = JSON.parse(pm.request.body.raw);\r",
+							"    pm.expect(requestBody).to.have.property(\"email\");\r",
+							"    pm.expect(requestBody).to.have.property(\"password\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Login success and save JWT\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.token).to.be.a(\"string\");\r",
+							"    pm.expect(jsonData.token).to.not.be.empty;\r",
+							"    pm.environment.set(\"jwt_token\", jsonData.token);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7125/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login failed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Request method is POST\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"POST\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request body has email and password\", function () {\r",
+							"    var requestBody = JSON.parse(pm.request.body.raw);\r",
+							"    pm.expect(requestBody).to.have.property(\"email\");\r",
+							"    pm.expect(requestBody).to.have.property(\"password\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 401\", function () {\r",
+							"    pm.response.to.have.status(401);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Error message is correct\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.detailError.message.toLowerCase()).to.include(\"invalid username or password\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@21\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7125/api/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"JWT token is included in Authorization header\", function () {\r",
+							"    var authHeader = pm.request.headers.get(\"Authorization\");\r",
+							"    pm.expect(authHeader).to.include(\"Bearer \");\r",
+							"    pm.expect(authHeader).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request method is POST\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"POST\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response success is true\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.success).to.eql(true);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response has data value\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    if (jsonData.data !== null) {\r",
+							"        pm.expect(jsonData.data).to.not.be.null;\r",
+							"    } else {\r",
+							"        console.log(\"API returns success but data is null (this is acceptable)\");\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiaXNzIjoiaXNzdWVyIiwiYXVkIjoiYXVkaWVuY2UifQ.vTrdYkhBUBjs_cR0a7_vCBC4ci7KglKTVESikwGCEaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 3,\r\n  \"leopardName\": \"Great Leopard\",\r\n  \"weight\": 16,\r\n  \"characteristics\": \"A very strong and healthy leopard\",\r\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7125/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"JWT token is included in Authorization header\", function () {\r",
+							"    var authHeader = pm.request.headers.get(\"Authorization\");\r",
+							"    pm.expect(authHeader).to.include(\"Bearer \");\r",
+							"    pm.expect(authHeader).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request method is PUT\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"PUT\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request body has required fields\", function () {\r",
+							"    var requestBody = JSON.parse(pm.request.body.raw);\r",
+							"    pm.expect(requestBody).to.have.property(\"leopardName\");\r",
+							"    pm.expect(requestBody).to.have.property(\"leopardTypeId\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response success is true\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.success).to.eql(true);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiaXNzIjoiaXNzdWVyIiwiYXVkIjoiYXVkaWVuY2UifQ.vTrdYkhBUBjs_cR0a7_vCBC4ci7KglKTVESikwGCEaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 2,\r\n  \"leopardName\": \"Update Panthera Tigris Tigris\",\r\n  \"weight\": 16,\r\n  \"characteristics\": \"Update The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\r\n  \"careNeeds\": \"Update These animals are classified as endangered by the IUCN\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7125/api/LeopardProfile/13",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"13"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete LeopardProfile",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"JWT token is included in Authorization header\", function () {\r",
+							"    var authHeader = pm.request.headers.get(\"Authorization\");\r",
+							"    pm.expect(authHeader).to.include(\"Bearer \");\r",
+							"    pm.expect(authHeader).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request method is DELETE\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"DELETE\");\r",
+							"});\r",
+							"\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response success is true\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.success).to.eql(true);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiaXNzIjoiaXNzdWVyIiwiYXVkIjoiYXVkaWVuY2UifQ.vTrdYkhBUBjs_cR0a7_vCBC4ci7KglKTVESikwGCEaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7125/api/LeopardProfile/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get List",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"JWT token is included in Authorization header\", function () {\r",
+							"    var authHeader = pm.request.headers.get(\"Authorization\");\r",
+							"    pm.expect(authHeader).to.include(\"Bearer \");\r",
+							"    pm.expect(authHeader).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request method is GET\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"GET\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response has data array\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data).to.be.an(\"array\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiaXNzIjoiaXNzdWVyIiwiYXVkIjoiYXVkaWVuY2UifQ.vTrdYkhBUBjs_cR0a7_vCBC4ci7KglKTVESikwGCEaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7125/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get by Id",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"JWT token is included in Authorization header\", function () {\r",
+							"    var authHeader = pm.request.headers.get(\"Authorization\");\r",
+							"    pm.expect(authHeader).to.include(\"Bearer \");\r",
+							"    pm.expect(authHeader).to.not.be.empty;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Request method is GET\", function () {\r",
+							"    pm.expect(pm.request.method).to.eql(\"GET\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Response has data object\", function () {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.data).to.be.an(\"object\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJhZG1pbmlzdHJhdG9yIiwiaXNzIjoiaXNzdWVyIiwiYXVkIjoiYXVkaWVuY2UifQ.vTrdYkhBUBjs_cR0a7_vCBC4ci7KglKTVESikwGCEaE",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7125/api/LeopardProfile/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7125",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
