@@ -1,0 +1,412 @@
+{
+	"info": {
+		"_postman_id": "leopard-api-collection",
+		"name": "Leopard API",
+		"description": "Complete test collection for Leopard API with JWT authentication",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Login Success",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response has token\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.token).to.exist;",
+									"    pm.expect(jsonData.role).to.exist;",
+									"});",
+									"",
+									"if (pm.response.code === 200) {",
+									"    var jsonData = pm.response.json();",
+									"    pm.environment.set(\"jwt_token\", jsonData.token);",
+									"    pm.environment.set(\"user_role\", jsonData.role);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"administrator@leopard.com\",\n  \"password\": \"@1\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/auth",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"auth"
+							]
+						}
+					}
+				},
+				{
+					"name": "Login Failed",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 401\", function () {",
+									"    pm.response.to.have.status(401);",
+									"});",
+									"",
+									"pm.test(\"Response has error code\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorCode).to.equal(\"HB40101\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"email\": \"invalid@email.com\",\n  \"password\": \"wrongpassword\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/auth",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"auth"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "LeopardProfile",
+			"item": [
+				{
+					"name": "Get All LeopardProfiles",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response is array\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.be.an('array');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile"
+							]
+						}
+					}
+				},
+				{
+					"name": "Get LeopardProfile by ID",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response has correct ID\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.leopardProfileId).to.equal(1);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					}
+				},
+				{
+					"name": "Create LeopardProfile (Authorized)",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 201\", function () {",
+									"    pm.response.to.have.status(201);",
+									"});",
+									"",
+									"pm.test(\"Response has leopardProfileId\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.leopardProfileId).to.exist;",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"leopardProfileId\": 0,\n  \"leopardTypeId\": 1,\n  \"leopardName\": \"Panthera tigris tigris\",\n  \"weight\": 35,\n  \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n  \"careNeeds\": \"These animals are classified as endangered by the IUCN\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile"
+							]
+						}
+					}
+				},
+				{
+					"name": "Update LeopardProfile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response has updated data\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.leopardName).to.equal(\"Updated Leopard Name\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"leopardTypeId\": 1,\n  \"leopardName\": \"Updated Leopard Name\",\n  \"weight\": 40,\n  \"characteristics\": \"Updated characteristics\",\n  \"careNeeds\": \"Updated care needs\"\n}"
+						},
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					}
+				},
+				{
+					"name": "Delete LeopardProfile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response has success message\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.message).to.include(\"deleted successfully\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile/1",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"1"
+							]
+						}
+					}
+				},
+				{
+					"name": "Search LeopardProfile",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});",
+									"",
+									"pm.test(\"Response is array\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData).to.be.an('array');",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{jwt_token}}"
+							}
+						],
+						"url": {
+							"raw": "{{base_url}}/api/LeopardProfile/search?LeopardName=Panthera&Weight=35",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"api",
+								"LeopardProfile",
+								"search"
+							],
+							"query": [
+								{
+									"key": "LeopardName",
+									"value": "Panthera"
+								},
+								{
+									"key": "Weight",
+									"value": "35"
+								}
+							]
+						}
+					}
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "https://localhost:7001",
+			"type": "string"
+		}
+	]
+} 
