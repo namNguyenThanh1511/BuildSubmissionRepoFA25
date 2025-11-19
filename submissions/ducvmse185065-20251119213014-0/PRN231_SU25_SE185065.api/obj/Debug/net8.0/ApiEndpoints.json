@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PRN231_SU25_SE185065.api.AuthController",
+    "Method": "Post",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "PRN231_SU25_SE185065.api.AuthController\u002BAuthRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

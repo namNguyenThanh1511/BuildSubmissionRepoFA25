@@ -1,0 +1,31 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Service;
+
+namespace PRN231_SU25_SE185065.api
+{
+    [ApiController]
+    [Route("api/auth")]
+    public class AuthController : ControllerBase
+    {
+        private readonly IAuthService _authService;
+        public AuthController(IAuthService authService)
+        {
+            _authService = authService;
+        }
+
+        public class AuthRequest
+        {
+            public string Email { get; set; } = string.Empty;
+            public string Password { get; set; } = string.Empty;
+        }
+
+        [HttpPost]
+        public IActionResult Post([FromBody] AuthRequest request)
+        {
+            var (token, role) = _authService.Authenticate(request.Email, request.Password);
+            if (token == null || role == null)
+                return Unauthorized();
+            return Ok(new { token, role });
+        }
+    }
+}
