@@ -1,0 +1,6 @@
+@PRN232_SU25_SE170076_DuongThanhThoai.api_HostAddress = http://localhost:5122
+
+GET {{PRN232_SU25_SE170076_DuongThanhThoai.api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

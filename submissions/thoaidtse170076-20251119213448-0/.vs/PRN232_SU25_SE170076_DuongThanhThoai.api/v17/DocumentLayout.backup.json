@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{752D9DB6-4860-43AE-B117-CF24AA19BEDA}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\businesslogiclayer\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752D9DB6-4860-43AE-B117-CF24AA19BEDA}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\dataaccesslayer\\model\\createleopardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\model\\createleopardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\dataaccesslayer\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC2277E-7909-411E-A896-C3BB42A28DF7}|PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\prn232_su25_se170076_duongthanhthoai.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC2277E-7909-411E-A896-C3BB42A28DF7}|PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api.csproj|solutionrelative:prn232_su25_se170076_duongthanhthoai.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EC2277E-7909-411E-A896-C3BB42A28DF7}|PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\prn232_su25_se170076_duongthanhthoai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EC2277E-7909-411E-A896-C3BB42A28DF7}|PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api.csproj|solutionrelative:prn232_su25_se170076_duongthanhthoai.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{752D9DB6-4860-43AE-B117-CF24AA19BEDA}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\businesslogiclayer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{752D9DB6-4860-43AE-B117-CF24AA19BEDA}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|d:\\prn232_su25_se170076_duongthanhthoai.api\\dataaccesslayer\\model\\leopardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD6DA5C8-5F1D-4838-8076-42980C65E329}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\model\\leopardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Entities\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Entities\\LeopardProfile.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Entities\\LeopardProfile.cs",
+              "RelativeToolTip": "DataAccessLayer\\Entities\\LeopardProfile.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:35:59.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateLeoPardModel.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Model\\CreateLeoPardModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Model\\CreateLeoPardModel.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Model\\CreateLeoPardModel.cs",
+              "RelativeToolTip": "DataAccessLayer\\Model\\CreateLeoPardModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:34:43.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeoPardService.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\BusinessLogicLayer\\Services\\LeoPardService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\LeoPardService.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\BusinessLogicLayer\\Services\\LeoPardService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\LeoPardService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:33:52.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeoPardController.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\LeoPardController.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\LeoPardController.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\LeoPardController.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\LeoPardController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAswDcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:35:11.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeoPardModel.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Model\\LeoPardModel.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Model\\LeoPardModel.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\DataAccessLayer\\Model\\LeoPardModel.cs",
+              "RelativeToolTip": "DataAccessLayer\\Model\\LeoPardModel.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:45:29.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\BusinessLogicLayer\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\AuthService.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\BusinessLogicLayer\\Services\\AuthService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\AuthService.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAwCkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:22:17.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\PRN232_SU25_SE170076_DuongThanhThoai.api\\PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170076_DuongThanhThoai.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAEwCAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:10.501Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "PRN232_SU25_SE170076.api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.Model.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "GetAllHandBag",
+    "RelativePath": "api/LeopardProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "CreateLeopard",
+    "RelativePath": "api/LeopardProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.Model.CreateLeoPardModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "GetLeoPardId",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "DeleteLeoPard",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "UpdateLeoPard",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "DataAccessLayer.Model.CreateLeoPardModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE170076_DuongThanhThoai.api.Controllers.LeoPardController",
+    "Method": "SearchShoe",
+    "RelativePath": "api/LeopardProfile/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leopardname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "weight",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
