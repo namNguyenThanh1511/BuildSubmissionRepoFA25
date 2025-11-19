@@ -1,0 +1,374 @@
+{
+	"info": {
+		"_postman_id": "2df3c022-2cdd-4b63-8477-1d7abc7bf5ed",
+		"name": "PRN232",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25684615"
+	},
+	"item": [
+		{
+			"name": "1. Login_Pass",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has token and role\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('token');",
+							"    pm.expect(jsonData).to.have.property('role');",
+							"    pm.collectionVariables.set('jwt_token', jsonData.token);",
+							"});",
+							"",
+							"pm.test(\"Role is valid\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(['Administrator', 'Moderator', 'Developer', 'Member']).to.include(jsonData.role);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"admin@leopard.com\",\n  \"password\": \"@1\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/api/auth",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Login_Failed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 400\", function () {",
+							"    pm.response.to.have.status(400);",
+							"});",
+							"",
+							"pm.test(\"Response has error message\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('message');",
+							"    pm.expect(jsonData).to.have.property('errorCode');",
+							"    pm.expect(jsonData.errorCode).to.eql('HB40001');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"wrong@email.com\",\n  \"password\": \"wrongpassword\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/api/auth",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Create_Success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", function () {",
+							"    pm.response.to.have.status(201);",
+							"});",
+							"",
+							"pm.test(\"Response has handbag data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('handbagId');",
+							"    pm.expect(jsonData).to.have.property('modelName');",
+							"    pm.expect(jsonData).to.have.property('material');",
+							"    pm.expect(jsonData).to.have.property('price');",
+							"    pm.collectionVariables.set('handbag_id', jsonData.handbagId);",
+							"});",
+							"",
+							"pm.test(\"Created handbag has correct data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.modelName).to.eql('Elegant#2024');",
+							"    pm.expect(jsonData.material).to.eql('Leather');",
+							"    pm.expect(jsonData.price).to.eql(250.5);",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"leopardProfileId\":1,\n  \"LeopardName\": \"Elegant#2024\",\n  \"Weight\": 250.5,\n  \"Characteristics\": \"Black\",\n  \"CareNeeds\": \"Black and White\",\n  \"LeopardTypeId\": 10,\n  \"modifiedDate\": \"2025-25-12\"\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/api/LeopardProfile",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Update_Success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has updated handbag data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('handbagId');",
+							"    pm.expect(jsonData).to.have.property('modelName');",
+							"    pm.expect(jsonData).to.have.property('material');",
+							"});",
+							"",
+							"pm.test(\"Updated handbag has correct data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.modelName).to.eql('Elegant Updated 2024#');",
+							"    pm.expect(jsonData.material).to.eql('PremiumLeather');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"handbagId\": {{handbag_id}},\n  \"modelName\": \"Elegant Updated 2024#\",\n  \"material\": \"PremiumLeather\",\n  \"color\": \"Brown\",\n  \"price\": 300.0,\n  \"stock\": 15,\n  \"brandId\": 1\n}"
+				},
+				"url": {
+					"raw": "{{base_url}}/api/handbag/{{handbag_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"handbag",
+						"{{handbag_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. GetById_Success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response has handbag data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.have.property('handbagId');",
+							"    pm.expect(jsonData).to.have.property('modelName');",
+							"    pm.expect(jsonData).to.have.property('material');",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/handbag/{{handbag_id}}",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"handbag",
+						"{{handbag_id}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. GetListOData_Success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response is array of handbags\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData).to.be.an('array');",
+							"});",
+							"",
+							"// pm.test(\"Search results contain filtered data\", function () {",
+							"//     var jsonData = pm.response.json();",
+							"//     if(jsonData.length > 0) {",
+							"//         pm.expect(jsonData[0]).to.have.property('handbagId');",
+							"//         pm.expect(jsonData[0]).to.have.property('modelName');",
+							"//         pm.expect(jsonData[0]).to.have.property('material');",
+							"//     }",
+							"// });",
+							"",
+							"pm.test(\"Search results contain filtered data\", function () {",
+							"    var jsonData = pm.response.json();",
+							"",
+							"    if (jsonData.length > 0 && jsonData[0].handbags.length > 0) {",
+							"        const firstHandbag = jsonData[0].handbags[0];",
+							"        pm.expect(firstHandbag).to.have.property('handbagId');",
+							"        pm.expect(firstHandbag).to.have.property('modelName');",
+							"        pm.expect(firstHandbag).to.have.property('material');",
+							"    }",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"protocolVersion": "auto"
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/api/handbag/search?modelName=Elegant&material=Leather",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"api",
+						"handbag",
+						"search"
+					],
+					"query": [
+						{
+							"key": "modelName",
+							"value": "Elegant"
+						},
+						{
+							"key": "material",
+							"value": "Leather"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
