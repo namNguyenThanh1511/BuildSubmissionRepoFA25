@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "GetAll",
+    "RelativePath": "api/LeopardProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "Create",
+    "RelativePath": "api/LeopardProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.LeopardProfileDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "GetById",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "Update",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "BLL.DTOs.LeopardProfileUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "Delete",
+    "RelativePath": "api/LeopardProfile/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN232_SU25_SE182318.api.Controllers.LeopardProfileController",
+    "Method": "Search",
+    "RelativePath": "api/LeopardProfile/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leopardName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "weight",
+        "Type": "System.Double",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
