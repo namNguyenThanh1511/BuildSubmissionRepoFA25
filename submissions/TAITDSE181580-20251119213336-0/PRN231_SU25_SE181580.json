@@ -1,0 +1,216 @@
+{
+	"info": {
+		"_postman_id": "f7f56857-15ee-4489-9409-a77517ce01f1",
+		"name": "PRN232_PE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34907518"
+	},
+	"item": [
+		{
+			"name": "1. Login Success",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"administrator@leopard.com\",\n  \"password\": \"@1\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/auth",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. Login Failed",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"email\": \"admin@example.com\",\n  \"password\": \"wrong-password\"\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/auth",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. Create LeopardProfile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AaGFuZGJhZ2FzaWFuLm9yZyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IjEiLCJleHAiOjE3NTI5NTMxOTEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxMzUiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTM1In0.qB7wksJ_6s4TBOzBduaUMBNxsbLq405Fo6aeafcWPpM"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"modelName\": \"Elegant #2024\",\n  \"material\": \"Leather\",\n  \"price\": 250.5,\n  \"stock\": 10,\n  \"brandId\": 1\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/LeopardProfile",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. Update LeopardProfile",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AaGFuZGJhZ2FzaWFuLm9yZyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluaXN0cmF0b3IiLCJleHAiOjE3NTI5NTQ5NjYsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxMzUiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTM1In0.KuntaVOHuh0ZuEqLSAU9FB93hGMaO-ya9hLRW20bel4"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"modelName\": \"Elegant#2024Updated\",\n  \"material\": \"Faux Leather\",\n  \"price\": 270,\n  \"stock\": 8,\n  \"brandId\": 1\n}"
+				},
+				"url": {
+					"raw": "{{baseUrl}}/api/Handbags/0",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"Handbags",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. Delete LeopardProfile",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{jwt_moderator}}"
+					}
+				],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. Get All LeopardProfile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{jwt_member}}"
+					}
+				],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6b. Get LeopardProfile by ID",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5pc3RyYXRvckBsZW9wYXJkLmNvbSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluaXN0cmF0b3IiLCJleHAiOjE3NTI5ODgwMDEsImlzcyI6Imh0dHBzOi8vbG9jYWxob3N0OjcxMzUiLCJhdWQiOiJodHRwczovL2xvY2FsaG9zdDo3MTM1In0.q2OOrjX5ivVDKrjpCnxycZ4DGkhC1EI0Q-mJgfOE5J0"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/api/LeopardProfile/1",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"LeopardProfile",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7007"
+		},
+		{
+			"key": "jwt",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
