@@ -1,6 +1,0 @@
-@PRN231_SU25_SE184386.API_HostAddress = http://localhost:5249
-
-GET {{PRN231_SU25_SE184386.API_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

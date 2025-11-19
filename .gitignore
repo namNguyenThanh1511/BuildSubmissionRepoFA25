@@ -1,0 +1,123 @@
+###########################
+# .NET + Visual Studio
+###########################
+
+# Build output
+bin/
+obj/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.opendb
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+.nuget/
+*.lock.json
+
+# Publish
+publish/
+out/
+artifacts/
+
+# Logs
+*.log
+logs/
+Log/
+
+# Temp
+*.tmp
+*.temp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+###########################
+# C#/WPF/WinForms specifics
+###########################
+
+# ClickOnce
+publish/
+*.application
+*.manifest
+
+# WPF Designer
+*.g.i.cs
+*.baml
+*.resources
+*.g.cs
+
+###########################
+# GitHub Actions
+###########################
+
+# Ignore workflow temp
+.github/workflows/temp/
+
+###########################
+# Exam Auto-Grading System
+###########################
+
+# Student extracted working folders
+working/
+temp/
+extracted/
+unzip/
+cache/
+
+# Excel temp
+*.xlsx.tmp
+*.xls.tmp
+
+# Output ZIP artifacts
+*.zip
+
+###########################
+# OS Files
+###########################
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+###########################
+# Node / Web (nếu bài có web)
+###########################
+
+node_modules/
+dist/
+build/
+.env
+.env.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+###########################
+# Python (nếu có)
+###########################
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/

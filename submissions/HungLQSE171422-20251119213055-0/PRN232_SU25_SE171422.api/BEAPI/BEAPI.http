@@ -1,6 +1,0 @@
-@BEAPI_HostAddress = http://localhost:5182
-
-GET {{BEAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

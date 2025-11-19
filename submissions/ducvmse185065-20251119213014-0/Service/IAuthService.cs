@@ -1,9 +1,0 @@
-using Repository.Models;
-
-namespace Service
-{
-    public interface IAuthService
-    {
-        (string? Token, int? RoleId) Authenticate(string email, string password);
-    }
-}

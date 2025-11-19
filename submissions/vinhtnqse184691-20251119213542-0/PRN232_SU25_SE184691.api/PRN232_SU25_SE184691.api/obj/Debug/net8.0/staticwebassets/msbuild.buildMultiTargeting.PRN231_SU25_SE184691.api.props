@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PRN231_SU25_SE184691.api.props" />
-</Project>

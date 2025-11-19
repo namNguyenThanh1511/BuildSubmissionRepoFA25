@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PRN231_SU25_SE173175.api.props" />
-</Project>
