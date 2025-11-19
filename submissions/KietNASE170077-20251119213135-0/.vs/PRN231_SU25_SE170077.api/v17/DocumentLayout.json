@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\entities\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\prn231_su25_se170077.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|solutionrelative:prn231_su25_se170077.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FDA2D6B-6E9D-45B1-A4DC-9D024B1DCAF2}|BLL\\BLL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\bll\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FDA2D6B-6E9D-45B1-A4DC-9D024B1DCAF2}|BLL\\BLL.csproj|solutionrelative:bll\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\model\\groupeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\model\\groupeddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\prn231_su25_se170077.api\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|solutionrelative:prn231_su25_se170077.api\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\model\\errormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\model\\errormap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\model\\updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\model\\updatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\model\\createmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\model\\createmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\model\\listallmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\model\\listallmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FDA2D6B-6E9D-45B1-A4DC-9D024B1DCAF2}|BLL\\BLL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FDA2D6B-6E9D-45B1-A4DC-9D024B1DCAF2}|BLL\\BLL.csproj|solutionrelative:bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\prn231_su25_se170077.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|solutionrelative:prn231_su25_se170077.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\prn231_su25_se170077.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|solutionrelative:prn231_su25_se170077.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\prn231_su25_se170077.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EB715AE-AB5E-4766-AA84-DDC5CBB404C1}|PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api.csproj|solutionrelative:prn231_su25_se170077.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\uow\\genenicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\uow\\genenicrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|d:\\major\\ki_8_su25\\prn232\\pe\\de gpt\\prn231_su25_se170077.api\\dal\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E658243D-5BFF-4BBF-BE4D-300FA637ACC1}|DAL\\DAL.csproj|solutionrelative:dal\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardType.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Entities\\LeopardType.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\LeopardType.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Entities\\LeopardType.cs",
+              "RelativeToolTip": "DAL\\Entities\\LeopardType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:26:16.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GroupedDto.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\GroupedDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Model\\GroupedDto.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\GroupedDto.cs",
+              "RelativeToolTip": "DAL\\Model\\GroupedDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:23:24.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateModel.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\UpdateModel.cs",
+              "RelativeDocumentMoniker": "DAL\\Model\\UpdateModel.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\UpdateModel.cs",
+              "RelativeToolTip": "DAL\\Model\\UpdateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:12:46.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Entities\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "DAL\\Entities\\LeopardProfile.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Entities\\LeopardProfile.cs",
+              "RelativeToolTip": "DAL\\Entities\\LeopardProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:52:13.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateModel.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\CreateModel.cs",
+              "RelativeDocumentMoniker": "DAL\\Model\\CreateModel.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\CreateModel.cs",
+              "RelativeToolTip": "DAL\\Model\\CreateModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:54.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ListAllModel.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\ListAllModel.cs",
+              "RelativeDocumentMoniker": "DAL\\Model\\ListAllModel.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\ListAllModel.cs",
+              "RelativeToolTip": "DAL\\Model\\ListAllModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:38:47.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardController.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Controllers\\LeopardController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170077.api\\Controllers\\LeopardController.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Controllers\\LeopardController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170077.api\\Controllers\\LeopardController.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAADwv4MAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:41:57.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardService.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\BLL\\LeopardService.cs",
+              "RelativeDocumentMoniker": "BLL\\LeopardService.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\BLL\\LeopardService.cs",
+              "RelativeToolTip": "BLL\\LeopardService.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAcwIQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:38:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170077.api\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170077.api\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:10.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\BLL\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\AuthService.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\BLL\\AuthService.cs",
+              "RelativeToolTip": "BLL\\AuthService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAWwBsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:25:23.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170077.api\\appsettings.json",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE170077.api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:24:43.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ErrorMap.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\ErrorMap.cs",
+              "RelativeDocumentMoniker": "DAL\\Model\\ErrorMap.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Model\\ErrorMap.cs",
+              "RelativeToolTip": "DAL\\Model\\ErrorMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:22:54.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170077.api\\ExceptionMiddleware.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170077.api\\ExceptionMiddleware.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:22:03.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DAL\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "DAL\\UOW\\UnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:56.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenenicRepository.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\UOW\\GenenicRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\UOW\\GenenicRepository.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\UOW\\GenenicRepository.cs",
+              "RelativeToolTip": "DAL\\UOW\\GenenicRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:40.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE170077.api\\Program.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\PRN231_SU25_SE170077.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE170077.api\\Program.cs",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFEAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:19:30.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Su25leopardDbContext.cs",
+              "DocumentMoniker": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Su25leopardDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Su25leopardDbContext.cs",
+              "ToolTip": "D:\\Major\\Ki_8_SU25\\PRN232\\PE\\de gpt\\PRN231_SU25_SE170077.api\\DAL\\Su25leopardDbContext.cs",
+              "RelativeToolTip": "DAL\\Su25leopardDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:27.141Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1543,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:28:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
