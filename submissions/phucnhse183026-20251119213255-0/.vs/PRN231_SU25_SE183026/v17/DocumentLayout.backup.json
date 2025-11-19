@@ -1,0 +1,238 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\controllers\\leopardprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\controllers\\leopardprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F943BE4-A8D2-407B-A024-7B9F3A0300EE}|Repository\\Repository.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\repository\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F943BE4-A8D2-407B-A024-7B9F3A0300EE}|Repository\\Repository.csproj|solutionrelative:repository\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\prn231_su25_se183026.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\prn231_su25_se183026.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\prn231_su25_se183026.api.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\prn231_su25_se183026.api.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\prn231_su25_se183026.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{795D71D0-A104-4242-89E3-C383FDCB5092}|PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj|solutionrelative:prn231_su25_se183026.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59A40A-2E46-4FCA-9142-C4241FF4169B}|DAO\\DAO.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\dao\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D59A40A-2E46-4FCA-9142-C4241FF4169B}|DAO\\DAO.csproj|solutionrelative:dao\\models\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59A40A-2E46-4FCA-9142-C4241FF4169B}|DAO\\DAO.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\dao\\dto\\createprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D59A40A-2E46-4FCA-9142-C4241FF4169B}|DAO\\DAO.csproj|solutionrelative:dao\\dto\\createprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375AB6A-D351-4106-B554-E95469400ECB}|Service\\Service.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\service\\implements\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0375AB6A-D351-4106-B554-E95469400ECB}|Service\\Service.csproj|solutionrelative:service\\implements\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0375AB6A-D351-4106-B554-E95469400ECB}|Service\\Service.csproj|c:\\users\\asus\\downloads\\test\\src\\prn231_su25_se183026\\service\\implements\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0375AB6A-D351-4106-B554-E95469400ECB}|Service\\Service.csproj|solutionrelative:service\\implements\\leopardaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{873151d0-cf2e-48cc-b4bf-ad0394f6a3c3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:28:16.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PRN231_SU25_SE183026.api.http",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.http",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.http",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.http",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-07-20T03:25:26.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PRN231_SU25_SE183026.api.csproj.Backup.tmp",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj.Backup.tmp",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj.Backup.tmp",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\PRN231_SU25_SE183026.api.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-20T03:25:24.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SU25LeopardDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Repository\\SU25LeopardDBContext.cs",
+              "RelativeDocumentMoniker": "Repository\\SU25LeopardDBContext.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Repository\\SU25LeopardDBContext.cs",
+              "RelativeToolTip": "Repository\\SU25LeopardDBContext.cs",
+              "ViewState": "AgIAAAMAAAAEAAAAAIApwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:22:00.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:17:39.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T03:17:38.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LeopardAccountService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Service\\Implements\\LeopardAccountService.cs",
+              "RelativeDocumentMoniker": "Service\\Implements\\LeopardAccountService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Service\\Implements\\LeopardAccountService.cs",
+              "RelativeToolTip": "Service\\Implements\\LeopardAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:12:12.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\DAO\\DTO\\CreateProfile.cs",
+              "RelativeDocumentMoniker": "DAO\\DTO\\CreateProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\DAO\\DTO\\CreateProfile.cs",
+              "RelativeToolTip": "DAO\\DTO\\CreateProfile.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:11:39.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Controllers\\LeopardProfilesController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE183026.api\\Controllers\\LeopardProfilesController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\PRN231_SU25_SE183026.api\\Controllers\\LeopardProfilesController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE183026.api\\Controllers\\LeopardProfilesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:05:07.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\DAO\\Models\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "DAO\\Models\\LeopardProfile.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\DAO\\Models\\LeopardProfile.cs",
+              "RelativeToolTip": "DAO\\Models\\LeopardProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:01:44.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Service\\Implements\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "Service\\Implements\\LeopardProfileService.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\TEST\\src\\PRN231_SU25_SE183026\\Service\\Implements\\LeopardProfileService.cs",
+              "RelativeToolTip": "Service\\Implements\\LeopardProfileService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:01:41.746Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
