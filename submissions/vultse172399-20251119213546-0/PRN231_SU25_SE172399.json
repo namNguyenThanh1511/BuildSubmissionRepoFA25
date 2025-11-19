@@ -1,0 +1,695 @@
+{
+	"info": {
+		"_postman_id": "b9ccf3b6-8f2c-4e6e-a5d2-2431a5d9acf1",
+		"name": "PRN231_SU25_SE172399",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39959014"
+	},
+	"item": [
+		{
+			"name": "LoginFail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"admin@leopard.com\",\r\n  \"password\": \"@12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7291/api/LeopardAccounts/auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"api",
+						"LeopardAccounts",
+						"auth"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "LoginFail",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"admin@leopard.com\",\r\n  \"password\": \"@12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardAccounts/auth",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardAccounts",
+								"auth"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:12:01 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorCode\": \"HB40101\",\n    \"message\": \"Invalid email or password\"\n}"
+				},
+				{
+					"name": "LoginSuccess",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardAccounts/auth",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardAccounts",
+								"auth"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:12:26 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyOTQ3LCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.JgcR7D_SnMup18yeW7f9gmBw8O5iYGLqtrYWGJOducE\",\n    \"role\": \"5\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Create",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyNDU1LCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.WKGYuLbWKW5rBUoytm1qhPDyWSrAWtHMCwu1ex5SkL8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyNDU1LCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.WKGYuLbWKW5rBUoytm1qhPDyWSrAWtHMCwu1ex5SkL8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 3,\r\n  \"leopardName\": \"Angry Cheetah\",\r\n  \"weight\": 60,\r\n  \"characteristics\": \"Angry\",\r\n  \"careNeeds\": \"None\",\r\n  \"modifiedDate\": \"2025-07-20T03:04:24.735Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7291/api/LeopardProfiles",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7291",
+					"path": [
+						"api",
+						"LeopardProfiles"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "CreateWithAuthorizedRoles",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyNDU1LCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.WKGYuLbWKW5rBUoytm1qhPDyWSrAWtHMCwu1ex5SkL8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"leopardTypeId\": 3,\r\n  \"leopardName\": \"Angry Cheetah\",\r\n  \"weight\": 60,\r\n  \"characteristics\": \"Angry\",\r\n  \"careNeeds\": \"None\",\r\n  \"modifiedDate\": \"2025-07-20T03:04:24.735Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:09:49 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"leopardTypeId\": 3,\n    \"leopardName\": \"Angry Cheetah\",\n    \"weight\": 60,\n    \"characteristics\": \"Angry\",\n    \"careNeeds\": \"None\",\n    \"modifiedDate\": \"2025-07-20T03:04:24.735Z\"\n}"
+				},
+				{
+					"name": "Create Unauthorized",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBsZW9wYXJkLmNvbSIsIlJvbGUiOiIxIiwiQWNjb3VudElkIjoiMSIsIkFjY291bnROYW1lIjoiYWRtaW4iLCJleHAiOjE3NTI5ODMwODMsImlzcyI6IlZVREVWREVWREVWX0lzc3VlciIsImF1ZCI6IlZVREVWREVWREVWX0F1ZGllbmNlIn0.giSdXDdlIWlu1mIdECDZBkka7RJ97ovgSPV4m0lrlco",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"leopardTypeId\": 3,\r\n  \"leopardName\": \"Angry Cheetah\",\r\n  \"weight\": 60,\r\n  \"characteristics\": \"Angry\",\r\n  \"careNeeds\": \"None\",\r\n  \"modifiedDate\": \"2025-07-20T03:04:24.735Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:15:36 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorCode\": \"HB40301\",\n    \"message\": \"Permission denied\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Update",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyODMwLCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.q0r6i9d_jVIamoa_Xk_DKVAJL9ZNqxFJsj4goSxzjv4",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"leopardTypeId\": 2,\r\n  \"leopardName\": \"Easy Cheetah\",\r\n  \"weight\": 200,\r\n  \"characteristics\": \"Easy\",\r\n  \"careNeeds\": \"Yes\",\r\n  \"modifiedDate\": \"2025-07-20T03:10:56.737Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles",
+								"11"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:11:31 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"leopardTypeId\": 2,\n    \"leopardName\": \"Easy Cheetah\",\n    \"weight\": 200,\n    \"characteristics\": \"Easy\",\n    \"careNeeds\": \"Yes\",\n    \"modifiedDate\": \"2025-07-20T03:10:56.737Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "DeleteSuccessful",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbmlzdHJhdG9yQGxlb3BhcmQuY29tIiwiUm9sZSI6IjUiLCJBY2NvdW50SWQiOiI1IiwiQWNjb3VudE5hbWUiOiJhZG1pbmlzdHJhdG9yIiwiZXhwIjoxNzUyOTgyODMwLCJpc3MiOiJWVURFVkRFVkRFVl9Jc3N1ZXIiLCJhdWQiOiJWVURFVkRFVkRFVl9BdWRpZW5jZSJ9.q0r6i9d_jVIamoa_Xk_DKVAJL9ZNqxFJsj4goSxzjv4",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles/11",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles",
+								"11"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "Content-Length",
+							"value": "0"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:14:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						}
+					],
+					"cookie": [],
+					"body": null
+				},
+				{
+					"name": "Delete Unauthorized",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBsZW9wYXJkLmNvbSIsIlJvbGUiOiIxIiwiQWNjb3VudElkIjoiMSIsIkFjY291bnROYW1lIjoiYWRtaW4iLCJleHAiOjE3NTI5ODMwODMsImlzcyI6IlZVREVWREVWREVWX0lzc3VlciIsImF1ZCI6IlZVREVWREVWREVWX0F1ZGllbmNlIn0.giSdXDdlIWlu1mIdECDZBkka7RJ97ovgSPV4m0lrlco",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles/10",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles",
+								"10"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:15:03 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"errorCode\": \"HB40301\",\n    \"message\": \"Permission denied\"\n}"
+				}
+			]
+		},
+		{
+			"name": "GET List",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "GET Successful",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBsZW9wYXJkLmNvbSIsIlJvbGUiOiIxIiwiQWNjb3VudElkIjoiMSIsIkFjY291bnROYW1lIjoiYWRtaW4iLCJleHAiOjE3NTI5ODMwODMsImlzcyI6IlZVREVWREVWREVWX0lzc3VlciIsImF1ZCI6IlZVREVWREVWREVWX0F1ZGllbmNlIn0.giSdXDdlIWlu1mIdECDZBkka7RJ97ovgSPV4m0lrlco",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:16:47 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"leopardProfileId\": 1,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Panthera tigris tigris\",\n        \"weight\": 35,\n        \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 1,\n            \"leopardTypeName\": \"Sri Lankan Leopard\",\n            \"origin\": \"Nepal\",\n            \"description\": \"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies that is native to Sri Lanka\",\n            \"leopardProfiles\": [\n                null,\n                {\n                    \"leopardProfileId\": 2,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Nepalaliis\",\n                    \"weight\": 22,\n                    \"characteristics\": \"Females of this subspecies weigh around 29 kg, and males weigh around 56 kg\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 3,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Bhutanient\",\n                    \"weight\": 39,\n                    \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 2,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Nepalaliis\",\n        \"weight\": 22,\n        \"characteristics\": \"Females of this subspecies weigh around 29 kg, and males weigh around 56 kg\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 1,\n            \"leopardTypeName\": \"Sri Lankan Leopard\",\n            \"origin\": \"Nepal\",\n            \"description\": \"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies that is native to Sri Lanka\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 1,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Panthera tigris tigris\",\n                    \"weight\": 35,\n                    \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null,\n                {\n                    \"leopardProfileId\": 3,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Bhutanient\",\n                    \"weight\": 39,\n                    \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 3,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Bhutanient\",\n        \"weight\": 39,\n        \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 1,\n            \"leopardTypeName\": \"Sri Lankan Leopard\",\n            \"origin\": \"Nepal\",\n            \"description\": \"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies that is native to Sri Lanka\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 1,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Panthera tigris tigris\",\n                    \"weight\": 35,\n                    \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 2,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Nepalaliis\",\n                    \"weight\": 22,\n                    \"characteristics\": \"Females of this subspecies weigh around 29 kg, and males weigh around 56 kg\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 4,\n        \"leopardTypeId\": 2,\n        \"leopardName\": \"Bengal\",\n        \"weight\": 33,\n        \"characteristics\": \"The leopards are either completely black due to a recessive phenotype or have the usual spotted coat\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 2,\n            \"leopardTypeName\": \"Javan Leopard\",\n            \"origin\": \"Georgia\",\n            \"description\": \"The highly threatened Javan leopard (Panthera pardus melas) is endemic to the Indonesian island of Java\",\n            \"leopardProfiles\": [\n                null,\n                {\n                    \"leopardProfileId\": 5,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Ekaterina\",\n                    \"weight\": 30,\n                    \"characteristics\": \"The Javan leopard is critically endangered, and only about 250 individuals survive in protected habitats in their range\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 6,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Sierra\",\n                    \"weight\": 31,\n                    \"characteristics\": \"Depletion of the prey base, poaching, habitat loss and also conflicts with humans have resulted in a rapid downfall in the numbers of the Javan leopard\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 5,\n        \"leopardTypeId\": 2,\n        \"leopardName\": \"Ekaterina\",\n        \"weight\": 30,\n        \"characteristics\": \"The Javan leopard is critically endangered, and only about 250 individuals survive in protected habitats in their range\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 2,\n            \"leopardTypeName\": \"Javan Leopard\",\n            \"origin\": \"Georgia\",\n            \"description\": \"The highly threatened Javan leopard (Panthera pardus melas) is endemic to the Indonesian island of Java\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 4,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Bengal\",\n                    \"weight\": 33,\n                    \"characteristics\": \"The leopards are either completely black due to a recessive phenotype or have the usual spotted coat\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null,\n                {\n                    \"leopardProfileId\": 6,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Sierra\",\n                    \"weight\": 31,\n                    \"characteristics\": \"Depletion of the prey base, poaching, habitat loss and also conflicts with humans have resulted in a rapid downfall in the numbers of the Javan leopard\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 6,\n        \"leopardTypeId\": 2,\n        \"leopardName\": \"Sierra\",\n        \"weight\": 31,\n        \"characteristics\": \"Depletion of the prey base, poaching, habitat loss and also conflicts with humans have resulted in a rapid downfall in the numbers of the Javan leopard\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 2,\n            \"leopardTypeName\": \"Javan Leopard\",\n            \"origin\": \"Georgia\",\n            \"description\": \"The highly threatened Javan leopard (Panthera pardus melas) is endemic to the Indonesian island of Java\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 4,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Bengal\",\n                    \"weight\": 33,\n                    \"characteristics\": \"The leopards are either completely black due to a recessive phenotype or have the usual spotted coat\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 5,\n                    \"leopardTypeId\": 2,\n                    \"leopardName\": \"Ekaterina\",\n                    \"weight\": 30,\n                    \"characteristics\": \"The Javan leopard is critically endangered, and only about 250 individuals survive in protected habitats in their range\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 7,\n        \"leopardTypeId\": 3,\n        \"leopardName\": \"Panthera\",\n        \"weight\": 17,\n        \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 3,\n            \"leopardTypeName\": \"Indochinese Leopard\",\n            \"origin\": \"Bali\",\n            \"description\": \"The Indochinese leopard (Panthera pardus delacouri) is native to southern China and mainland Southeast Asia\",\n            \"leopardProfiles\": [\n                null,\n                {\n                    \"leopardProfileId\": 8,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Sumatra\",\n                    \"weight\": 20,\n                    \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 9,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Baliance\",\n                    \"weight\": 20,\n                    \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 10,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Cheetah\",\n                    \"weight\": 60,\n                    \"characteristics\": \"Angry\",\n                    \"careNeeds\": \"None\",\n                    \"modifiedDate\": \"2025-07-20T10:09:01.327\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 8,\n        \"leopardTypeId\": 3,\n        \"leopardName\": \"Sumatra\",\n        \"weight\": 20,\n        \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 3,\n            \"leopardTypeName\": \"Indochinese Leopard\",\n            \"origin\": \"Bali\",\n            \"description\": \"The Indochinese leopard (Panthera pardus delacouri) is native to southern China and mainland Southeast Asia\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 7,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Panthera\",\n                    \"weight\": 17,\n                    \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null,\n                {\n                    \"leopardProfileId\": 9,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Baliance\",\n                    \"weight\": 20,\n                    \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 10,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Cheetah\",\n                    \"weight\": 60,\n                    \"characteristics\": \"Angry\",\n                    \"careNeeds\": \"None\",\n                    \"modifiedDate\": \"2025-07-20T10:09:01.327\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 9,\n        \"leopardTypeId\": 3,\n        \"leopardName\": \"Baliance\",\n        \"weight\": 20,\n        \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 3,\n            \"leopardTypeName\": \"Indochinese Leopard\",\n            \"origin\": \"Bali\",\n            \"description\": \"The Indochinese leopard (Panthera pardus delacouri) is native to southern China and mainland Southeast Asia\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 7,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Panthera\",\n                    \"weight\": 17,\n                    \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 8,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Sumatra\",\n                    \"weight\": 20,\n                    \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null,\n                {\n                    \"leopardProfileId\": 10,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Cheetah\",\n                    \"weight\": 60,\n                    \"characteristics\": \"Angry\",\n                    \"careNeeds\": \"None\",\n                    \"modifiedDate\": \"2025-07-20T10:09:01.327\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    },\n    {\n        \"leopardProfileId\": 10,\n        \"leopardTypeId\": 3,\n        \"leopardName\": \"Cheetah\",\n        \"weight\": 60,\n        \"characteristics\": \"Angry\",\n        \"careNeeds\": \"None\",\n        \"modifiedDate\": \"2025-07-20T10:09:01.327\",\n        \"leopardType\": {\n            \"leopardTypeId\": 3,\n            \"leopardTypeName\": \"Indochinese Leopard\",\n            \"origin\": \"Bali\",\n            \"description\": \"The Indochinese leopard (Panthera pardus delacouri) is native to southern China and mainland Southeast Asia\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 7,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Panthera\",\n                    \"weight\": 17,\n                    \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 8,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Sumatra\",\n                    \"weight\": 20,\n                    \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 9,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Baliance\",\n                    \"weight\": 20,\n                    \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null\n            ]\n        }\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "GET By ID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Get By ID Success",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJhZG1pbkBsZW9wYXJkLmNvbSIsIlJvbGUiOiIxIiwiQWNjb3VudElkIjoiMSIsIkFjY291bnROYW1lIjoiYWRtaW4iLCJleHAiOjE3NTI5ODMwODMsImlzcyI6IlZVREVWREVWREVWX0lzc3VlciIsImF1ZCI6IlZVREVWREVWREVWX0F1ZGllbmNlIn0.giSdXDdlIWlu1mIdECDZBkka7RJ97ovgSPV4m0lrlco",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfiles/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfiles",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:17:41 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"leopardProfileId\": 3,\n    \"leopardTypeId\": 1,\n    \"leopardName\": \"Bhutanient\",\n    \"weight\": 39,\n    \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n    \"modifiedDate\": \"2025-06-20T00:00:00\",\n    \"leopardType\": {\n        \"leopardTypeId\": 1,\n        \"leopardTypeName\": \"Sri Lankan Leopard\",\n        \"origin\": \"Nepal\",\n        \"description\": \"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies that is native to Sri Lanka\",\n        \"leopardProfiles\": [\n            null\n        ]\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Search by OData",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "Search By Name using OData",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfilesOData?$filter=LeopardName eq 'Panthera tigris tigris'",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfilesOData"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "LeopardName eq 'Panthera tigris tigris'"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:21:13 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"leopardProfileId\": 1,\n        \"leopardTypeId\": 1,\n        \"leopardName\": \"Panthera tigris tigris\",\n        \"weight\": 35,\n        \"characteristics\": \"The leopard possesses a tawny or rusty yellow-colored coat with close-set rosettes and dark spots\",\n        \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n        \"modifiedDate\": \"2025-06-20T00:00:00\",\n        \"leopardType\": {\n            \"leopardTypeId\": 1,\n            \"leopardTypeName\": \"Sri Lankan Leopard\",\n            \"origin\": \"Nepal\",\n            \"description\": \"The Sri Lankan leopard (Panthera pardus kotiya) is a leopard subspecies that is native to Sri Lanka\",\n            \"leopardProfiles\": [\n                null,\n                {\n                    \"leopardProfileId\": 2,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Nepalaliis\",\n                    \"weight\": 22,\n                    \"characteristics\": \"Females of this subspecies weigh around 29 kg, and males weigh around 56 kg\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 3,\n                    \"leopardTypeId\": 1,\n                    \"leopardName\": \"Bhutanient\",\n                    \"weight\": 39,\n                    \"characteristics\": \"The Sri Lankan leopard has historically been found across a wide range of habitats on the island nation including arid scrub jungle, rainforest, upper highland forest, and dry evergreen monsoon forest\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                }\n            ]\n        }\n    }\n]"
+				},
+				{
+					"name": "Search By Weight using OData",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7291/api/LeopardProfilesOData?$filter=Weight gt 40",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7291",
+							"path": [
+								"api",
+								"LeopardProfilesOData"
+							],
+							"query": [
+								{
+									"key": "$filter",
+									"value": "Weight gt 40"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 20 Jul 2025 03:22:17 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"leopardProfileId\": 10,\n        \"leopardTypeId\": 3,\n        \"leopardName\": \"Cheetah\",\n        \"weight\": 60,\n        \"characteristics\": \"Angry\",\n        \"careNeeds\": \"None\",\n        \"modifiedDate\": \"2025-07-20T10:09:01.327\",\n        \"leopardType\": {\n            \"leopardTypeId\": 3,\n            \"leopardTypeName\": \"Indochinese Leopard\",\n            \"origin\": \"Bali\",\n            \"description\": \"The Indochinese leopard (Panthera pardus delacouri) is native to southern China and mainland Southeast Asia\",\n            \"leopardProfiles\": [\n                {\n                    \"leopardProfileId\": 7,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Panthera\",\n                    \"weight\": 17,\n                    \"characteristics\": \"Like most other wildlife in the region, the leopard faces threats due to habitat loss and poaching for illegal wildlife trade\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 8,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Sumatra\",\n                    \"weight\": 20,\n                    \"characteristics\": \"A report produced in 2016 came as a shock to conservationists since it revealed that there are only about 400 to 1,000 breeding adults of the Indochinese leopard left in the wild\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                {\n                    \"leopardProfileId\": 9,\n                    \"leopardTypeId\": 3,\n                    \"leopardName\": \"Baliance\",\n                    \"weight\": 20,\n                    \"characteristics\": \"The Indochinese leopard appears in a predominantly black form south of the Kra Isthmus and a predominantly spotted form north of the Isthmus\",\n                    \"careNeeds\": \"These animals are classified as endangered by the IUCN\",\n                    \"modifiedDate\": \"2025-06-20T00:00:00\",\n                    \"leopardType\": null\n                },\n                null\n            ]\n        }\n    }\n]"
+				}
+			]
+		}
+	]
+}
