@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\controllers\\leopardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\leopardcreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\leopardcreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\typeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\typeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\controllers\\systemaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\controllers\\systemaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\leopardupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\leopardupdatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\leopardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\leopardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\typerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\typerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\systemaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\systemaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\model\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\model\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\model\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\model\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\error\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\error\\apierror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\error\\errorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\error\\errorhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.api\\prn231_su25_se173282.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{786E298C-6F2A-4D93-B82C-7BED0749F1C6}|PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj|solutionrelative:prn231_su25_se173282.api\\prn231_su25_se173282.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\prn231_su25_se173282.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\prn231_su25_se173282.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E8F9562-E47F-46B8-9147-2AC0D4AF568D}|PRN231_SU25_SE173282.BLL\\PRN231_SU25_SE173282.BLL.csproj|solutionrelative:prn231_su25_se173282.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|d:\\desktop\\ki8\\prn232\\prn231_su25_se173282\\prn231_su25_se173282.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14EF541A-4369-4EA5-B16E-944C0F00A832}|PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj|solutionrelative:prn231_su25_se173282.dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\Program.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAwHEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:01.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TypeService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\TypeService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\TypeService.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\TypeService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\TypeService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:38:43.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardCreateModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardCreateModel.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\LeopardCreateModel.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardCreateModel.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\LeopardCreateModel.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:12.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeopardUpdateModel.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardUpdateModel.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\LeopardUpdateModel.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardUpdateModel.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\LeopardUpdateModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwB4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:45:31.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\LeopardService.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\LeopardService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\LeopardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:53:21.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Controllers\\LeopardController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\Controllers\\LeopardController.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Controllers\\LeopardController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\Controllers\\LeopardController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:04:06.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SystemAccountController.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Controllers\\SystemAccountController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\Controllers\\SystemAccountController.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Controllers\\SystemAccountController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\Controllers\\SystemAccountController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwD8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:27:30.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeopardRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\LeopardRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\LeopardRepository.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\LeopardRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\LeopardRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwB8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:27.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TypeRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\TypeRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\TypeRepository.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\TypeRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\TypeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:07.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SystemAccountRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\SystemAccountRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\SystemAccountRepository.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\SystemAccountRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\SystemAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:42.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SystemAccountService.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\SystemAccountService.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\SystemAccountService.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\SystemAccountService.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\SystemAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:22:18.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Model\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\Model\\LeopardAccount.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Model\\LeopardAccount.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\Model\\LeopardAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:32:40.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorHelper.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Error\\ErrorHelper.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\Error\\ErrorHelper.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Error\\ErrorHelper.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\Error\\ErrorHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:53.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Su25leopardDbContext.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Model\\Su25leopardDbContext.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\Model\\Su25leopardDbContext.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Model\\Su25leopardDbContext.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\Model\\Su25leopardDbContext.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:07.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApiError.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Error\\ApiError.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\Error\\ApiError.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\Error\\ApiError.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\Error\\ApiError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:24:47.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\GenericRepository.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\GenericRepository.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\GenericRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwBMAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:19:58.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\appsettings.json",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:17:52.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PRN231_SU25_SE173282.api.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE173282.api\\PRN231_SU25_SE173282.api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:14:33.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PRN231_SU25_SE173282.DAL.csproj",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\PRN231_SU25_SE173282.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:14:18.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.BLL\\Class1.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.BLL\\Class1.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:14:00.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173282.DAL\\Class1.cs",
+              "ToolTip": "D:\\Desktop\\Ki8\\PRN232\\PRN231_SU25_SE173282\\PRN231_SU25_SE173282.DAL\\Class1.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173282.DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:13:44.636Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
