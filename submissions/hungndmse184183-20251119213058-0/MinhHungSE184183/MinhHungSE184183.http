@@ -1,0 +1,6 @@
+@MinhHungSE184183_HostAddress = http://localhost:5036
+
+GET {{MinhHungSE184183_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

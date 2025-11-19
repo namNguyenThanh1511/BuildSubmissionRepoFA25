@@ -1,0 +1,452 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\leopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\interface\\ileopardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\leopardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\dtos\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\minhhungse184183\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\minhhungse184183\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|solutionrelative:controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\dtos\\createleoparddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\authhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\entities\\leopardtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\minhhungse184183\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\dtos\\leopardprofiledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\minhhungse184183\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E1D06C7-7E62-4C5F-B321-C13FE23CD5AD}|MinhHungSE184183.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\interface\\ileopardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\dtos\\leopardtypedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\interface\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\entities\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\interface\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92F38E0F-A2C1-4B20-BEB4-6E7305815D5F}|..\\Services\\Services.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74481D44-0EAB-4D84-8DA9-1B287A1DA215}|..\\Repositories\\Repositories.csproj|c:\\users\\minh hung\\onedrive\\desktop\\pe_prn232_exam\\repositories\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T03:23:29.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LeopardProfileController.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "Controllers\\LeopardProfileController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAgwCkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:18:36.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CreateLeopardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\CreateLeopardDTO.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\DTOs\\CreateLeopardDTO.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\CreateLeopardDTO.cs",
+              "RelativeToolTip": "..\\Repositories\\DTOs\\CreateLeopardDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:07:37.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LeopardTypeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LeopardTypeDTO.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\DTOs\\LeopardTypeDTO.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LeopardTypeDTO.cs",
+              "RelativeToolTip": "..\\Repositories\\DTOs\\LeopardTypeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:01:36.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LeopardProfileDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LeopardProfileDTO.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\DTOs\\LeopardProfileDTO.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LeopardProfileDTO.cs",
+              "RelativeToolTip": "..\\Repositories\\DTOs\\LeopardProfileDTO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:01:00.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeopardType.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardType.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Entities\\LeopardType.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardType.cs",
+              "RelativeToolTip": "..\\Repositories\\Entities\\LeopardType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:00:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeopardService.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\LeopardService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\LeopardService.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\LeopardService.cs",
+              "RelativeToolTip": "..\\Services\\LeopardService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwFYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:57:26.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ILeopardService.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Interface\\ILeopardService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Interface\\ILeopardService.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Interface\\ILeopardService.cs",
+              "RelativeToolTip": "..\\Services\\Interface\\ILeopardService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:57:03.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Entities\\LeopardProfile.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardProfile.cs",
+              "RelativeToolTip": "..\\Repositories\\Entities\\LeopardProfile.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:53:28.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeopardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\LeopardRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\LeopardRepository.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\LeopardRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\LeopardRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAA9wDoAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:28.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILeopardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Interface\\ILeopardRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Interface\\ILeopardRepository.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Interface\\ILeopardRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Interface\\ILeopardRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:11.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\DTOs\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LoginRequest.cs",
+              "RelativeToolTip": "..\\Repositories\\DTOs\\LoginRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:47:23.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:44:07.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\DTOs\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\DTOs\\LoginResponse.cs",
+              "RelativeToolTip": "..\\Repositories\\DTOs\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:42:24.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\AuthHelper.cs",
+              "RelativeDocumentMoniker": "..\\Services\\AuthHelper.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\AuthHelper.cs",
+              "RelativeToolTip": "..\\Services\\AuthHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:25.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\Services\\AuthService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABgAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:03.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Interface\\IAuthService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Interface\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Interface\\IAuthService.cs",
+              "RelativeToolTip": "..\\Services\\Interface\\IAuthService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:39:02.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Services",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Services.csproj",
+              "RelativeDocumentMoniker": "..\\Services\\Services.csproj",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Services.csproj",
+              "RelativeToolTip": "..\\Services\\Services.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:34:12.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Entities\\LeopardAccount.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Entities\\LeopardAccount.cs",
+              "RelativeToolTip": "..\\Repositories\\Entities\\LeopardAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:38:30.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\AuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:32.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Interface\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Interface\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Interface\\IAuthRepository.cs",
+              "RelativeToolTip": "..\\Repositories\\Interface\\IAuthRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:37:14.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\MinhHungSE184183\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAArwBoAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:36:05.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Su25leopardDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Su25leopardDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Su25leopardDbContext.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Su25leopardDbContext.cs",
+              "RelativeToolTip": "..\\Repositories\\Su25leopardDbContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:26.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Services\\Class1.cs",
+              "RelativeToolTip": "..\\Services\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:27:47.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Repositories\\Class1.cs",
+              "ToolTip": "C:\\Users\\Minh Hung\\OneDrive\\Desktop\\PE_PRN232_Exam\\Repositories\\Class1.cs",
+              "RelativeToolTip": "..\\Repositories\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:27:35.716Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
