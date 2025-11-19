@@ -1,0 +1,346 @@
+{
+	"info": {
+		"_postman_id": "022db411-806c-4e33-9d44-6a47a7620465",
+		"name": "PE_PRN232_SE172394_LeopardManagementAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35145038"
+	},
+	"item": [
+		{
+			"name": "Login failed",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 401\", () => pm.response.to.have.status(401));\r",
+							"\r",
+							"pm.test(\"Error message is correct\", () => {\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.errorCode).to.eql(\"HB40101\");\r",
+							"    pm.expect(jsonData.message).to.eql(\"Invalid email or password\");\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7037/api/Auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7037",
+					"path": [
+						"api",
+						"Auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login success",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));\r",
+							"\r",
+							"pm.test(\"Token returned\", () => {\r",
+							"    const json = pm.response.json();\r",
+							"    pm.expect(json.token).to.be.a('string');\r",
+							"    pm.collectionVariables.set(\"jwt_token\", json.token);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"email\": \"administrator@leopard.com\",\r\n  \"password\": \"@1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7037/api/Auth",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7037",
+					"path": [
+						"api",
+						"Auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get list",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7037/api/LeopardProfile",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7037",
+					"path": [
+						"api",
+						"LeopardProfile"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create LeopardProfile (authorized roles only)",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 201\", () => pm.response.to.have.status(201));\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"handbagId\": 100,\r\n  \"brandId\": 1,\r\n  \"modelName\": \"Abc123\",\r\n  \"material\": \"string\",\r\n  \"color\": \"string\",\r\n  \"price\": 1,\r\n  \"stock\": 1,\r\n  \"releaseDate\": \"2025-07-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7141/api/Handbags",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7141",
+					"path": [
+						"api",
+						"Handbags"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get by ID",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7141/api/Handbags/100",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7141",
+					"path": [
+						"api",
+						"Handbags",
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Leopard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"leopardTypeId\": 2,\r\n  \"leopardName\": \"LeopardNew\",\r\n  \"weight\": 123,\r\n  \"characteristics\": \"Thiss iss a neww Leopard\",\r\n  \"careNeeds\": \"No\",\r\n  \"modifiedDate\": \"2025-07-20T03:21:10.993Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:7037/api/LeopardProfile/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7037",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Leopard",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", () => pm.response.to.have.status(200));\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{jwt_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:7037/api/LeopardProfile/2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "7037",
+					"path": [
+						"api",
+						"LeopardProfile",
+						"2"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "jwt_token",
+			"value": ""
+		}
+	]
+}
