@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "GetLeopardProfile",
+    "RelativePath": "{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "RemoveLeopardProfile",
+    "RelativePath": "{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "updateLeopardProfile",
+    "RelativePath": "{LeopardProfileId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leopardProfile",
+        "Type": "Repository.Models.LeopardProfile",
+        "IsRequired": true
+      },
+      {
+        "Name": "LeopardProfileId",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "Login",
+    "RelativePath": "api/auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "ListAllLeopardProfile",
+    "RelativePath": "api/LeoPardProfile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PRN231_SU25_SE161141.Controllers.LeopardProfileController",
+    "Method": "CreateLeopardProfile",
+    "RelativePath": "api/LeoPardProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "leopardProfile",
+        "Type": "Repository.Models.LeopardProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
