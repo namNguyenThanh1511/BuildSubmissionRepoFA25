@@ -1,0 +1,17 @@
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\Repo.deps.json
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\Repo.dll
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\Repo.pdb
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\BO.dll
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\DAO.dll
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\DAO.pdb
+D:\Props\EXAM\PRN232_PE_221179\Repo\bin\Debug\net8.0\BO.pdb
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.csproj.AssemblyReference.cache
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.AssemblyInfoInputs.cache
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.AssemblyInfo.cs
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.csproj.CoreCompileInputs.cache
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.csproj.Up2Date
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.dll
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\refint\Repo.dll
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\Repo.pdb
+D:\Props\EXAM\PRN232_PE_221179\Repo\obj\Debug\net8.0\ref\Repo.dll

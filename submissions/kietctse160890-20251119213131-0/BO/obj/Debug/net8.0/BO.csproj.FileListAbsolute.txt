@@ -1,0 +1,14 @@
+D:\Props\EXAM\PRN232_PE_221179\BO\bin\Debug\net8.0\BO.deps.json
+D:\Props\EXAM\PRN232_PE_221179\BO\bin\Debug\net8.0\BO.runtimeconfig.json
+D:\Props\EXAM\PRN232_PE_221179\BO\bin\Debug\net8.0\BO.dll
+D:\Props\EXAM\PRN232_PE_221179\BO\bin\Debug\net8.0\BO.pdb
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.csproj.AssemblyReference.cache
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.AssemblyInfoInputs.cache
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.AssemblyInfo.cs
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.csproj.CoreCompileInputs.cache
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.dll
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\refint\BO.dll
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.pdb
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\BO.genruntimeconfig.cache
+D:\Props\EXAM\PRN232_PE_221179\BO\obj\Debug\net8.0\ref\BO.dll
