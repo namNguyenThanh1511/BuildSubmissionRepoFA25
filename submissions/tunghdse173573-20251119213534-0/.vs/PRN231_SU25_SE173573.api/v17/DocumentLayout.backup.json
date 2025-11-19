@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\prn231_su25_se173573\\prn231_su25_se173573_postmantest.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|solutionrelative:prn231_su25_se173573\\prn231_su25_se173573_postmantest.postman_collection.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\prn231_su25_se173573\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|solutionrelative:prn231_su25_se173573\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\prn231_su25_se173573\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|solutionrelative:prn231_su25_se173573\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\prn231_su25_se173573\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|solutionrelative:prn231_su25_se173573\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\bll\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|solutionrelative:bll\\leopardprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\roleenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\prn231_su25_se173573\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EAC46BE-1067-4D42-8026-84889B672276}|PRN231_SU25_SE173573\\PRN231_SU25_SE173573.csproj|solutionrelative:prn231_su25_se173573\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|solutionrelative:bll\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\genericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\errordefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\errordefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\dal\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{23999D4E-D645-4521-910E-CD9E14CDBACE}|DAL\\DAL.csproj|solutionrelative:dal\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|c:\\users\\haduy\\source\\repos\\prn231_su25_se173573.api\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{885E4016-4DD4-4569-AAFE-A69FA3F97805}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 294,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PRN231_SU25_SE173573_PostManTest.postman_collection.json",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\PRN231_SU25_SE173573_PostManTest.postman_collection.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173573\\PRN231_SU25_SE173573_PostManTest.postman_collection.json",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\PRN231_SU25_SE173573_PostManTest.postman_collection.json",
+              "RelativeToolTip": "PRN231_SU25_SE173573\\PRN231_SU25_SE173573_PostManTest.postman_collection.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T03:29:00.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173573\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173573\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAhwC0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:50:49.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleEnum.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\RoleEnum.cs",
+              "RelativeDocumentMoniker": "DAL\\RoleEnum.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\RoleEnum.cs",
+              "RelativeToolTip": "DAL\\RoleEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:25:51.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Program.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173573\\Program.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Program.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173573\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:10.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DAL",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-20T02:15:19.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\Authentication.cs",
+              "RelativeDocumentMoniker": "DAL\\Authentication.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\Authentication.cs",
+              "RelativeToolTip": "DAL\\Authentication.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowFMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:22.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "DAL\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\LoginResponseDTO.cs",
+              "RelativeToolTip": "DAL\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:18:38.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173573\\appsettings.json",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\appsettings.json",
+              "RelativeToolTip": "PRN231_SU25_SE173573\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:17:13.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN231_SU25_SE173573\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\PRN231_SU25_SE173573\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN231_SU25_SE173573\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:29:56.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LeopardProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\LeopardProfileService.cs",
+              "RelativeDocumentMoniker": "BLL\\LeopardProfileService.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\LeopardProfileService.cs",
+              "RelativeToolTip": "BLL\\LeopardProfileService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAArwBYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:59:26.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "DAL\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\LoginRequestDTO.cs",
+              "RelativeToolTip": "DAL\\LoginRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:24:26.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\AuthService.cs",
+              "RelativeDocumentMoniker": "BLL\\AuthService.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\AuthService.cs",
+              "RelativeToolTip": "BLL\\AuthService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:23:58.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GenericRepo.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\GenericRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\GenericRepo.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\GenericRepo.cs",
+              "RelativeToolTip": "DAL\\GenericRepo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:22:12.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "DAL\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\UnitOfWork.cs",
+              "RelativeToolTip": "DAL\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:21:59.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ErrorDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\ErrorDefinitions.cs",
+              "RelativeDocumentMoniker": "DAL\\ErrorDefinitions.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\ErrorDefinitions.cs",
+              "RelativeToolTip": "DAL\\ErrorDefinitions.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA8wDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:20:43.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "JWTSettings.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\JWTSettings.cs",
+              "RelativeDocumentMoniker": "DAL\\JWTSettings.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\DAL\\JWTSettings.cs",
+              "RelativeToolTip": "DAL\\JWTSettings.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAQwD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:19:27.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\haduy\\source\\repos\\PRN231_SU25_SE173573.api\\BLL\\Class1.cs",
+              "RelativeToolTip": "BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:14:56.369Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
