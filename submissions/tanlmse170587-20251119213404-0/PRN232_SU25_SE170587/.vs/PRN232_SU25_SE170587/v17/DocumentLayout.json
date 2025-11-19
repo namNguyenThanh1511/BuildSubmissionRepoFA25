@@ -1,0 +1,333 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\implements\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\implements\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\implements\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\implements\\profilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\interfaces\\iprofilerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\requests\\profilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\requests\\profilerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\response\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\response\\profileresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\response\\methodresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\response\\methodresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\response\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\controllers\\leopardprofilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\leopardprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\entities\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\leopardaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\entities\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\entities\\su25leoparddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\prn232_su25_se170587.api\\customauthorizationmiddlewareresulthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A55BE828-403F-47AE-83A6-1C13D81E54A9}|PRN232_SU25_SE170587.api\\PRN232_SU25_SE170587.api.csproj|solutionrelative:prn232_su25_se170587.api\\customauthorizationmiddlewareresulthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|g:\\educaion\\sem_8\\prn232_ketdv3\\final\\prn232_su25_se170587\\repository\\response\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367C8BEF-B331-4E35-873B-6394E7234265}|Repository\\Repository.csproj|solutionrelative:repository\\response\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfileRequest.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Requests\\ProfileRequest.cs",
+              "RelativeDocumentMoniker": "Repository\\Requests\\ProfileRequest.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Requests\\ProfileRequest.cs",
+              "RelativeToolTip": "Repository\\Requests\\ProfileRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:43:46.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Repository\\Requests\\LoginRequest.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "Repository\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:25.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "Repository\\Response\\LoginResponse.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\LoginResponse.cs",
+              "RelativeToolTip": "Repository\\Response\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:24.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MethodResult.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\MethodResult.cs",
+              "RelativeDocumentMoniker": "Repository\\Response\\MethodResult.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\MethodResult.cs",
+              "RelativeToolTip": "Repository\\Response\\MethodResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:24.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfileResponse.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\ProfileResponse.cs",
+              "RelativeDocumentMoniker": "Repository\\Response\\ProfileResponse.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\ProfileResponse.cs",
+              "RelativeToolTip": "Repository\\Response\\ProfileResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:44:04.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IProfileRepository.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Interfaces\\IProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IProfileRepository.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Interfaces\\IProfileRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:36.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Interfaces\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Interfaces\\IAuthRepository.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Interfaces\\IAuthRepository.cs",
+              "RelativeToolTip": "Repository\\Interfaces\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:35:23.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileRepository.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Implements\\ProfileRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implements\\ProfileRepository.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Implements\\ProfileRepository.cs",
+              "RelativeToolTip": "Repository\\Implements\\ProfileRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:40:03.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Implements\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\Implements\\AuthRepository.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Implements\\AuthRepository.cs",
+              "RelativeToolTip": "Repository\\Implements\\AuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:35:25.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Program.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\Program.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Program.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:32:17.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\appsettings.json",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\appsettings.json",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\appsettings.json",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T02:29:32.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LeopardProfileController.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\Controllers\\LeopardProfileController.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Controllers\\LeopardProfileController.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\Controllers\\LeopardProfileController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAEAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:03:39.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\appsettings.Development.json",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\appsettings.Development.json",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-20T03:09:02.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\Controllers\\AuthController.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T03:03:12.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LeopardProfile.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\LeopardProfile.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\LeopardProfile.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\LeopardProfile.cs",
+              "RelativeToolTip": "Repository\\Entities\\LeopardProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:44:10.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LeopardAccount.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\LeopardAccount.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\LeopardAccount.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\LeopardAccount.cs",
+              "RelativeToolTip": "Repository\\Entities\\LeopardAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:35:47.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CustomAuthorizationMiddlewareResultHandler.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\CustomAuthorizationMiddlewareResultHandler.cs",
+              "RelativeDocumentMoniker": "PRN232_SU25_SE170587.api\\CustomAuthorizationMiddlewareResultHandler.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\PRN232_SU25_SE170587.api\\CustomAuthorizationMiddlewareResultHandler.cs",
+              "RelativeToolTip": "PRN232_SU25_SE170587.api\\CustomAuthorizationMiddlewareResultHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:33:43.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Su25leopardDbContext.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\Su25leopardDbContext.cs",
+              "RelativeDocumentMoniker": "Repository\\Entities\\Su25leopardDbContext.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Entities\\Su25leopardDbContext.cs",
+              "RelativeToolTip": "Repository\\Entities\\Su25leopardDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:31:38.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "Repository\\Response\\ErrorResponse.cs",
+              "ToolTip": "G:\\Educaion\\Sem_8\\PRN232_KetDV3\\final\\PRN232_SU25_SE170587\\Repository\\Response\\ErrorResponse.cs",
+              "RelativeToolTip": "Repository\\Response\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-20T02:34:20.716Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
