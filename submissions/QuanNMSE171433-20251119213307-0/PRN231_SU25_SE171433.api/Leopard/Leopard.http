@@ -1,0 +1,6 @@
+@Leopard_HostAddress = http://localhost:5075
+
+GET {{Leopard_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
